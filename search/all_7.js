@@ -2,6 +2,7 @@ var searchData=
 [
   ['h',['h',['../class_orbit.html#a956c6e129cba9ff4afcdd811d04717f6',1,'Orbit']]],
   ['handlecollision',['HandleCollision',['../class_part.html#a75a14c81386c2c3223f8e0e97e0d5817',1,'Part']]],
+  ['handlephysicsstats',['handlePhysicsStats',['../class_vessel.html#ab04e4eaebd6c008fd851b4de711cc04a',1,'Vessel']]],
   ['hard',['Hard',['../class_game_parameters.html#a46750a958f8b0cb28820b2e0d3b3aeffa3656183169810334a96b91129dc9d881',1,'GameParameters']]],
   ['haschild',['HasChild',['../class_celestial_body.html#a65d967421827bdf702d51f1517cc1909',1,'CelestialBody']]],
   ['hascompletedcontract',['HasCompletedContract',['../class_contracts_1_1_contract_system.html#a3dbfccce35f7dfb525441a3c1f2f7c5d',1,'Contracts::ContractSystem']]],
@@ -19,6 +20,10 @@ var searchData=
   ['hasstagingicon',['hasStagingIcon',['../class_part.html#aba6446880a6df3343f5f62d3356f49e8',1,'Part']]],
   ['hastoured',['hasToured',['../class_proto_crew_member.html#a70af829e1ec668285e52e723961f13d1',1,'ProtoCrewMember']]],
   ['hasvalue',['HasValue',['../class_config_node.html#a0789996493df6b8295c46c1657edcc38',1,'ConfigNode.HasValue()'],['../class_config_node.html#a8a27f108c86e91206d6dda1a690eaaab',1,'ConfigNode.HasValue(string name)']]],
+  ['hatchobstructioncheckinwarddistance',['hatchObstructionCheckInwardDistance',['../class_part.html#ad60e2f0c44b5a059c9a39c480d29041d',1,'Part']]],
+  ['hatchobstructioncheckinwardoffset',['hatchObstructionCheckInwardOffset',['../class_part.html#a32942809ea64f6f13c104b173cb43fff',1,'Part']]],
+  ['hatchobstructioncheckoutwarddistance',['hatchObstructionCheckOutwardDistance',['../class_part.html#aad2a283569309095ef823ae208987556',1,'Part']]],
+  ['hatchobstructionchecksphereradius',['hatchObstructionCheckSphereRadius',['../class_part.html#ad91b1a5f84228504dae95efe939500fa',1,'Part']]],
   ['haveknowledgeabout',['HaveKnowledgeAbout',['../class_discovery_info.html#a0afe10d438426a040cacfe42d7051b3b',1,'DiscoveryInfo']]],
   ['headlamp',['headLamp',['../class_kerbal_e_v_a.html#a85929d14ef4d7d9d6c7dad664fceebf4',1,'KerbalEVA']]],
   ['headlight',['headlight',['../class_flight_ctrl_state.html#a00fdef7516f87c24c44844db75385de4',1,'FlightCtrlState']]],
@@ -47,6 +52,6 @@ var searchData=
   ['host',['host',['../struct_game_events_1_1_hosted_from_to_action.html#ab1a94e340d6296343391dd3ef1f8665d',1,'GameEvents.HostedFromToAction.host()'],['../struct_game_events_1_1_host_target_action.html#a6d60073caa18235c31e4e0aa000d9e2b',1,'GameEvents.HostTargetAction.host()']]],
   ['hostedfromtoaction',['HostedFromToAction',['../struct_game_events_1_1_hosted_from_to_action.html',1,'GameEvents']]],
   ['hostedfromtoaction',['HostedFromToAction',['../struct_game_events_1_1_hosted_from_to_action.html#a38a67826dc89c29b82efcb51ab427b3e',1,'GameEvents::HostedFromToAction']]],
-  ['hosttargetaction',['HostTargetAction',['../struct_game_events_1_1_host_target_action.html#a1b515de13e53cf7e799800891729efe9',1,'GameEvents::HostTargetAction']]],
-  ['hosttargetaction',['HostTargetAction',['../struct_game_events_1_1_host_target_action.html',1,'GameEvents']]]
+  ['hosttargetaction',['HostTargetAction',['../struct_game_events_1_1_host_target_action.html',1,'GameEvents']]],
+  ['hosttargetaction',['HostTargetAction',['../struct_game_events_1_1_host_target_action.html#a1b515de13e53cf7e799800891729efe9',1,'GameEvents::HostTargetAction']]]
 ];

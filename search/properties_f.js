@@ -2,10 +2,11 @@ var searchData=
 [
   ['rcslock',['RCSLock',['../class_flight_input_handler.html#aba75f12f13fae0ed7500dcfa176636e8',1,'FlightInputHandler']]],
   ['ready',['Ready',['../class_kerbal_e_v_a.html#aef9ae7b25392e903ad3ad55017aadeef',1,'KerbalEVA']]],
-  ['referencebody',['referenceBody',['../class_celestial_body.html#a648638ad89eeee5776513ef74edbf470',1,'CelestialBody']]],
+  ['referencebody',['referenceBody',['../class_celestial_body.html#a648638ad89eeee5776513ef74edbf470',1,'CelestialBody.referenceBody()'],['../class_orbit_driver.html#a04d790a3ee23e8abc5ea3667b6557e0a',1,'OrbitDriver.referenceBody()']]],
   ['referencelifetime',['referenceLifetime',['../class_discovery_info.html#acc171cf10f3534b152f76a507d9ab84b',1,'DiscoveryInfo']]],
   ['referencetransform',['ReferenceTransform',['../class_vessel.html#a21c00f2c3a17b5154ea9f46e1254f049',1,'Vessel']]],
   ['refframeisrotating',['RefFrameIsRotating',['../class_flight_globals.html#a9f87bbc12b5fb4f16e466056a25536b2',1,'FlightGlobals']]],
+  ['reputation',['reputation',['../class_reputation.html#aee953201575588e4b75b240326ddd8ed',1,'Reputation']]],
   ['resourceflowmode',['resourceFlowMode',['../class_part_resource_definition.html#a5ca9705e6df98c52ef70993dafaddc6b',1,'PartResourceDefinition']]],
   ['resourcemap',['ResourceMap',['../class_celestial_body.html#a133df5d9da2a7e011ef274e4177dd336',1,'CelestialBody']]],
   ['resources',['Resources',['../class_celestial_body.html#a20d5b979f6d8d7fb0d85787c4e4b223d',1,'CelestialBody.Resources()'],['../class_part.html#aa1fabb1056160af3a5760d4d96764a92',1,'Part.Resources()']]],
@@ -14,5 +15,6 @@ var searchData=
   ['rigidbody',['Rigidbody',['../class_part.html#a480a6807145118756ac8f882abd33b42',1,'Part']]],
   ['root',['Root',['../class_contracts_1_1_contract.html#a4661ffa9ff65a4fc97ec5d46dc248ec1',1,'Contracts.Contract.Root()'],['../class_contracts_1_1_contract_parameter.html#a7267e53c8b0312f7ba783c0302b1a39c',1,'Contracts.ContractParameter.Root()'],['../class_contracts_1_1_contract_predicate.html#a5123b13da0d896a28e878e279f9d09c2',1,'Contracts.ContractPredicate.Root()']]],
   ['rosterstatus',['rosterStatus',['../class_proto_crew_member.html#ac6261c74239cfee5eddab6fcfb92de1f',1,'ProtoCrewMember']]],
-  ['rotation',['Rotation',['../class_planetarium.html#a55ac5ee010f611c35c4b2a4c6feab45a',1,'Planetarium']]]
+  ['rotation',['Rotation',['../class_planetarium.html#a55ac5ee010f611c35c4b2a4c6feab45a',1,'Planetarium']]],
+  ['rotationaxis',['RotationAxis',['../class_celestial_body.html#a890972332583f401545f2a161db27003',1,'CelestialBody']]]
 ];

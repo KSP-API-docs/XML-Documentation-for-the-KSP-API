@@ -11,11 +11,14 @@ var searchData=
   ['unregisterexperiencetraits',['UnregisterExperienceTraits',['../class_proto_crew_member.html#ae527f390b1358a894bc52e49401c7d71',1,'ProtoCrewMember']]],
   ['unselectstrategy',['UnselectStrategy',['../class_administration.html#a896e63c49436285d787c0113fcbb208b',1,'Administration']]],
   ['update',['Update',['../class_contracts_1_1_contract.html#ad0a6ef9d5761815639a523d112c37a47',1,'Contracts.Contract.Update()'],['../class_contracts_1_1_contract_parameter.html#a1347024b5c21e964353360a677c89753',1,'Contracts.ContractParameter.Update()'],['../class_contracts_1_1_contract_predicate.html#afe7078351bbc9a34fde830337ea10c35',1,'Contracts.ContractPredicate.Update()'],['../class_patched_conic_solver.html#a4c6d4383b6f476119d51da558690718a',1,'PatchedConicSolver.Update()']]],
+  ['updated',['Updated',['../class_game.html#a459aa0961585e7a4f634597ec695f793',1,'Game']]],
   ['updateflightplan',['UpdateFlightPlan',['../class_patched_conic_solver.html#a362553ce017b70568b64499ebc39e9a1',1,'PatchedConicSolver']]],
   ['updatefromorbitatut',['UpdateFromOrbitAtUT',['../class_orbit.html#ab02534b069997c1795ada6ba4b21f848',1,'Orbit']]],
   ['updatefromstatevectors',['UpdateFromStateVectors',['../class_orbit.html#a3bc2b8f61ee091c7317fb7767076f207',1,'Orbit']]],
   ['updatefromut',['UpdateFromUT',['../class_orbit.html#a03e49ebe93555ef975c9386db8b0a629',1,'Orbit']]],
   ['updatefsm',['UpdateFSM',['../class_kerbal_f_s_m.html#ae6075f400fde58a2e6037ec5631eba78',1,'KerbalFSM.UpdateFSM()'],['../class_kerbal_f_s_m.html#a413a342ef2473cb9ffc7aec5b4ba10f7',1,'KerbalFSM.updateFSM(KFSMUpdateMode mode)']]],
+  ['updateorbit',['UpdateOrbit',['../class_orbit_driver.html#aa7de6c3185d4d447230a51a83105e7b3',1,'OrbitDriver']]],
   ['updateorgposandrot',['UpdateOrgPosAndRot',['../class_part.html#ad2c059529839a6b288eb50ed31cb46e6',1,'Part']]],
+  ['updatestageability',['UpdateStageability',['../class_part.html#aac4856c42fd1ccbc10304b1d8a38eed9',1,'Part']]],
   ['updatethrottle',['UpdateThrottle',['../class_module_engines.html#a1062e6f3e1686789ec7ffccd1f8acf50',1,'ModuleEngines']]]
 ];

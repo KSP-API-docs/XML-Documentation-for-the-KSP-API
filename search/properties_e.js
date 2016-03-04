@@ -9,6 +9,7 @@ var searchData=
   ['partselected',['PartSelected',['../class_editor_logic.html#a0f053aeefae020cff1709e7ea7a3501e',1,'EditorLogic']]],
   ['partvalues',['PartValues',['../class_part.html#a940bcc5dcb6b774cce660062f3c10c4a',1,'Part']]],
   ['patchcolors',['PatchColors',['../class_map_view.html#a170e88fd51a5eb90a8c09091dcfc8aa7',1,'MapView']]],
+  ['patchedconicsattached',['PatchedConicsAttached',['../class_vessel.html#a713284a55fb41177152132891a69dcd3',1,'Vessel']]],
   ['pause',['Pause',['../class_planetarium.html#af952fa892fd541baa69591bdcbfc8571',1,'Planetarium']]],
   ['pea',['PeA',['../class_orbit.html#a5d2fc15df21ea351193124dc73939192',1,'Orbit']]],
   ['per',['PeR',['../class_orbit.html#a5834c2b15205c7a07032c2b2a653da1b',1,'Orbit']]],

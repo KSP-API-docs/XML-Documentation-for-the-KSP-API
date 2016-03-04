@@ -1,6 +1,10 @@
 var searchData=
 [
+  ['sandbox',['SANDBOX',['../class_game.html#aeeac25e33cd082571ad5045bd04a5165a439d8eeff1670efd5d1eb2a4232254e8',1,'Game']]],
   ['sas',['SAS',['../_control_types_8cs.html#a0119b266bd804d818bf01e957f37217aa2db46c628cfb3bd1545d3b5a14b4a9c5',1,'ControlTypes.cs']]],
+  ['scenario',['SCENARIO',['../class_game.html#aeeac25e33cd082571ad5045bd04a5165a9d6a0082500d5c697cf3576f567eb1d0',1,'Game']]],
+  ['scenario_5fnon_5fresumable',['SCENARIO_NON_RESUMABLE',['../class_game.html#aeeac25e33cd082571ad5045bd04a5165aa6919a42b646f52f9706068d1f26fa80',1,'Game']]],
+  ['science_5fsandbox',['SCIENCE_SANDBOX',['../class_game.html#aeeac25e33cd082571ad5045bd04a5165a924b34ce3278bbe782c4670c0a4d8d07',1,'Game']]],
   ['sciencetransmission',['ScienceTransmission',['../_transaction_reasons_8cs.html#a5e7da8007c5a53c936acdce93de26b74aa289bbcb3ef6bb1445495ddc0e0efeb7',1,'TransactionReasons.cs']]],
   ['select',['SELECT',['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4ba63225f19fccb18e7c709f1fa11bc738e',1,'HighLogic']]],
   ['separator',['SEPARATOR',['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4ba70bb8dc90aa233a66b91ae2e9dc1a850',1,'HighLogic']]],
@@ -15,7 +19,7 @@ var searchData=
   ['spacecentre',['SpaceCentre',['../class_k_s_p_addon.html#aad4794e3fdfd545c576534be224f0b9ba199a5e6bc128b14a7cd9eed7c013329c',1,'KSPAddon']]],
   ['sph',['SPH',['../class_application_launcher.html#a7a06e87f89d831ed977456f13ca579a0a1710c052ab1570668ba737824f33b6cb',1,'ApplicationLauncher.SPH()'],['../class_editor_logic.html#a9c43b6aa2083cf4f1d69ca0d6604a3d0a1710c052ab1570668ba737824f33b6cb',1,'EditorLogic.SPH()'],['../_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090a1710c052ab1570668ba737824f33b6cb',1,'SPH():&#160;GameScenes.cs']]],
   ['spherical',['SPHERICAL',['../class_part.html#a64e1f9b7a9419f736b4446fba5b83d22a7f7d7e3a21bf7decf99d6fd26848772d',1,'Part']]],
-  ['splashed',['SPLASHED',['../class_vessel.html#acea90b73d9b4523383503ec82f2f63bbae378bd83e8150f56aa8ea3779b9eea19',1,'Vessel.SPLASHED()'],['../class_part_module.html#ac6597127392e002b92f7427cf50244d3acd0c6e01abfb930e1a737253e088360b',1,'PartModule.Splashed()']]],
+  ['splashed',['Splashed',['../class_part_module.html#ac6597127392e002b92f7427cf50244d3acd0c6e01abfb930e1a737253e088360b',1,'PartModule.Splashed()'],['../class_vessel.html#acea90b73d9b4523383503ec82f2f63bbae378bd83e8150f56aa8ea3779b9eea19',1,'Vessel.SPLASHED()']]],
   ['stack',['Stack',['../class_attach_node.html#a96e7fbc9722efd10a0e225bb6a6778cca2187e1021a911b3807cc1bea2eb1a9ca',1,'AttachNode']]],
   ['stack_5fpriority_5fsearch',['STACK_PRIORITY_SEARCH',['../_resource_flow_mode_8cs.html#a68c0f67f45156a12e536639bf7db16f3a8626ef3766d98fc5839064f68333c84d',1,'ResourceFlowMode.cs']]],
   ['stage_5fpriority_5fflow',['STAGE_PRIORITY_FLOW',['../_resource_flow_mode_8cs.html#a68c0f67f45156a12e536639bf7db16f3a3029df75f177043e9cb0ffcfcf46f1e1',1,'ResourceFlowMode.cs']]],

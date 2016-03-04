@@ -1,10 +1,15 @@
 var searchData=
 [
   ['h',['h',['../class_orbit.html#a956c6e129cba9ff4afcdd811d04717f6',1,'Orbit']]],
+  ['handlephysicsstats',['handlePhysicsStats',['../class_vessel.html#ab04e4eaebd6c008fd851b4de711cc04a',1,'Vessel']]],
   ['hasfocus',['hasFocus',['../class_flight_input_handler.html#aaeb075bef36df59f48d025f49b080f1e',1,'FlightInputHandler']]],
   ['hasheiarchymodel',['hasHeiarchyModel',['../class_part.html#ac4002bbd805be91629371efe7251de78',1,'Part']]],
   ['hasliftmodule',['hasLiftModule',['../class_part.html#a94a043981d0050eaefbbbf23a62dd857',1,'Part']]],
   ['hastoured',['hasToured',['../class_proto_crew_member.html#a70af829e1ec668285e52e723961f13d1',1,'ProtoCrewMember']]],
+  ['hatchobstructioncheckinwarddistance',['hatchObstructionCheckInwardDistance',['../class_part.html#ad60e2f0c44b5a059c9a39c480d29041d',1,'Part']]],
+  ['hatchobstructioncheckinwardoffset',['hatchObstructionCheckInwardOffset',['../class_part.html#a32942809ea64f6f13c104b173cb43fff',1,'Part']]],
+  ['hatchobstructioncheckoutwarddistance',['hatchObstructionCheckOutwardDistance',['../class_part.html#aad2a283569309095ef823ae208987556',1,'Part']]],
+  ['hatchobstructionchecksphereradius',['hatchObstructionCheckSphereRadius',['../class_part.html#ad91b1a5f84228504dae95efe939500fa',1,'Part']]],
   ['headlamp',['headLamp',['../class_kerbal_e_v_a.html#a85929d14ef4d7d9d6c7dad664fceebf4',1,'KerbalEVA']]],
   ['headlight',['headlight',['../class_flight_ctrl_state.html#a00fdef7516f87c24c44844db75385de4',1,'FlightCtrlState']]],
   ['heatconductivity',['heatConductivity',['../class_part.html#ab80fba2d761bc5572611af60ff11def5',1,'Part']]],

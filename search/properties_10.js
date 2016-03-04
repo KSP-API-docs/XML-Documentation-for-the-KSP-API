@@ -4,6 +4,7 @@ var searchData=
   ['scaledbodies',['scaledBodies',['../class_p_system_manager.html#a481685b353f2637e1c722c7a38ea3a6f',1,'PSystemManager']]],
   ['scalefactor',['ScaleFactor',['../class_scaled_space.html#aeb607935e7cebb31c4bfc8e5a396a819',1,'ScaledSpace']]],
   ['scenetransform',['SceneTransform',['../class_scaled_space.html#a88fbd284af9f824484d984024af7b657',1,'ScaledSpace']]],
+  ['science',['Science',['../class_research_and_development.html#a18b1528e61be1521e4952766079d0b97',1,'ResearchAndDevelopment']]],
   ['selectedpart',['SelectedPart',['../class_editor_logic.html#a3c70da41a41674e727ff9d98573fd652',1,'EditorLogic']]],
   ['selectedwrapper',['SelectedWrapper',['../class_administration.html#a96cbbf57ea4cb6409266235d9309a1f4',1,'Administration']]],
   ['semilatusrectum',['semiLatusRectum',['../class_orbit.html#ac74d23887d855c45e693fcd73c76c389',1,'Orbit']]],

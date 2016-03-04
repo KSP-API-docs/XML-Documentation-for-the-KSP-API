@@ -1,7 +1,7 @@
 var searchData=
 [
   ['basevalue',['baseValue',['../class_science_experiment.html#a40a17b4300c05cfe6792770c72dc6a57',1,'ScienceExperiment']]],
-  ['biomemap',['BiomeMap',['../class_celestial_body.html#a9514787ec77bdb1b5ecc3ee20ab2bed5',1,'CelestialBody']]],
+  ['biomemap',['BiomeMap',['../class_celestial_body.html#ad8dbcac1fffc54a20fa40a9c8382b7ed',1,'CelestialBody']]],
   ['biomemask',['biomeMask',['../class_science_experiment.html#ade4791e76d46bbbc035492839a37caed',1,'ScienceExperiment']]],
   ['bodies',['bodies',['../class_flight_globals.html#a2743553f1bdbae52a415ad8ffd1decf6',1,'FlightGlobals']]],
   ['bodydescription',['bodyDescription',['../class_celestial_body.html#acfd576b94a9fb8ffd478009afaecf3ce',1,'CelestialBody']]],
@@ -28,5 +28,7 @@ var searchData=
   ['btnexpand',['btnExpand',['../class_r_d_archives_controller.html#a1362f32e6835622177b44ce472aef491',1,'RDArchivesController']]],
   ['btnreset',['btnReset',['../class_r_d_archives_controller.html#a851af6b2ff2dacd37a552d434b5fd823',1,'RDArchivesController']]],
   ['buoyancy',['buoyancy',['../class_part.html#ae80a7974c749e83d6bc5f7560bc65a75',1,'Part']]],
+  ['buoyancyusecubenamed',['buoyancyUseCubeNamed',['../class_part.html#a27e72ebd7b40af8442ee4fba82a74775',1,'Part']]],
+  ['buoyancyusesine',['buoyancyUseSine',['../class_part.html#abbd7408d6cff56b0f9b08e7c16443954',1,'Part']]],
   ['bypassentrypurchaseafterresearch',['BypassEntryPurchaseAfterResearch',['../class_game_parameters_1_1_difficulty_params.html#abb923beb1d9ef4d840f576110682e2d0',1,'GameParameters::DifficultyParams']]]
 ];

@@ -1,5 +1,11 @@
 var searchData=
 [
-  ['x',['x',['../struct_vector3d.html#a8b074c5ebd03db4c04ba78abc574ec9a',1,'Vector3d.x()'],['../class_flight_ctrl_state.html#ad3904450c9ac278a4e52c3d88abe39f9',1,'FlightCtrlState.X()']]],
-  ['xmitdatascalar',['xmitDataScalar',['../class_module_science_experiment.html#a142e5022a63dd78edb789ea50db5db88',1,'ModuleScienceExperiment']]]
+  ['walkspeed',['walkSpeed',['../class_kerbal_e_v_a.html#ab11eadb74d01baf3d955074524ea7f98',1,'KerbalEVA']]],
+  ['warpdriveactive',['warpDriveActive',['../class_flight_globals.html#ae547a2689347eaa2ded68f7fb86adda3',1,'FlightGlobals']]],
+  ['warphighbutton',['warpHighButton',['../class_time_warp.html#a259685d7dcf6069192819f0d52bbdd87',1,'TimeWarp']]],
+  ['warplowbutton',['warpLowButton',['../class_time_warp.html#a7c913affafcb09aa90d994195558827d',1,'TimeWarp']]],
+  ['warprates',['warpRates',['../class_time_warp.html#aa14fe71a64694b55d160f5195515a68f',1,'TimeWarp']]],
+  ['waterangulardragmultiplier',['waterAngularDragMultiplier',['../class_part.html#ab0aff5130f50a917a950c030d2938cf5',1,'Part']]],
+  ['watercontact',['WaterContact',['../class_part.html#a0a994dec2cd953b92599614445f87637',1,'Part']]],
+  ['windowtitle',['windowTitle',['../class_tutorial_scenario_1_1_tutorial_page.html#a1a2ab5d60e31273cf917a7fbe40e327f',1,'TutorialScenario::TutorialPage']]]
 ];

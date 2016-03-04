@@ -126,7 +126,8 @@ Public Types</h2></td></tr>
 <a class="el" href="class_orbit.html#a96fe2f2e726341f4b6d1342c792712dfa57c102cdbe7d64441cd90d61d29bcf30">PatchTransitionType.ENCOUNTER</a> = 2, 
 <a class="el" href="class_orbit.html#a96fe2f2e726341f4b6d1342c792712dfadaaedac409335b869929ea43fa44be5d">PatchTransitionType.ESCAPE</a> = 3, 
 <br />
-&#160;&#160;<a class="el" href="class_orbit.html#a96fe2f2e726341f4b6d1342c792712dfae30fd3901adfda9dc2260d6370961616">PatchTransitionType.MANEUVER</a> = 4
+&#160;&#160;<a class="el" href="class_orbit.html#a96fe2f2e726341f4b6d1342c792712dfae30fd3901adfda9dc2260d6370961616">PatchTransitionType.MANEUVER</a> = 4, 
+<a class="el" href="class_orbit.html#a96fe2f2e726341f4b6d1342c792712dfaa6a0ada307ab4bc89c06a3f57fb1b889">PatchTransitionType.IMPACT</a> = 5
 <br />
  }</td></tr>
 <tr class="separator:a96fe2f2e726341f4b6d1342c792712df"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,6 +242,16 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:acc2ff42ec578569f655f3e979fdd25e3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_orbit.html">Orbit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_orbit.html#acc2ff42ec578569f655f3e979fdd25e3">CreateRandomOrbitAround</a> (<a class="el" href="class_celestial_body.html">CelestialBody</a> body)</td></tr>
+<tr class="separator:acc2ff42ec578569f655f3e979fdd25e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e47757d0369ba692df659fc4842f89f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_orbit.html">Orbit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_orbit.html#a1e47757d0369ba692df659fc4842f89f">CreateRandomOrbitAround</a> (<a class="el" href="class_celestial_body.html">CelestialBody</a> body, double minAltitude, double maxAltitude)</td></tr>
+<tr class="separator:a1e47757d0369ba692df659fc4842f89f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43eb22ce15d62d6475a10b15bec9dacd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_orbit.html">Orbit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_orbit.html#a43eb22ce15d62d6475a10b15bec9dacd">CreateRandomOrbitFlyBy</a> (<a class="el" href="class_celestial_body.html">CelestialBody</a> tgtBody, double daysToClosestApproach)</td></tr>
+<tr class="separator:a43eb22ce15d62d6475a10b15bec9dacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e059d10401c08beac4d4871c197dd84"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_orbit.html">Orbit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_orbit.html#a7e059d10401c08beac4d4871c197dd84">CreateRandomOrbitFlyBy</a> (<a class="el" href="class_orbit.html">Orbit</a> targetOrbit, double timeToPeriapsis, double periapsis, double deltaVatPeriapsis)</td></tr>
+<tr class="separator:a7e059d10401c08beac4d4871c197dd84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55bb7b0ee66465319cb6d15777abc375"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_orbit.html">Orbit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_orbit.html#a55bb7b0ee66465319cb6d15777abc375">CreateRandomOrbitNearby</a> (<a class="el" href="class_orbit.html">Orbit</a> baseOrbit)</td></tr>
+<tr class="separator:a55bb7b0ee66465319cb6d15777abc375"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8af3bb634e2d76e26856a6767ebd84d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_orbit.html#ab8af3bb634e2d76e26856a6767ebd84d">FindClosestPoints</a> (<a class="el" href="class_orbit.html">Orbit</a> p, <a class="el" href="class_orbit.html">Orbit</a> s, ref double CD, ref double CCD, ref double FFp, ref double FFs, ref double SFp, ref double SFs, double epsilon, int maxIterations, ref int iterationCount)</td></tr>
 <tr class="separator:ab8af3bb634e2d76e26856a6767ebd84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaf424cdbb82e296b84cc1b14fc4bd89"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_orbit.html#abaf424cdbb82e296b84cc1b14fc4bd89">PeApIntersects</a> (<a class="el" href="class_orbit.html">Orbit</a> primary, <a class="el" href="class_orbit.html">Orbit</a> secondary, double threshold)</td></tr>
@@ -252,6 +263,8 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:ac6f6699afd679e068080e7b1a7331f46"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_orbit.html#ac6f6699afd679e068080e7b1a7331f46">Rad2Deg</a> = 57.2958</td></tr>
+<tr class="separator:ac6f6699afd679e068080e7b1a7331f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a488229aa4687ba8ffcd23dce27353eb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_orbit.html#a488229aa4687ba8ffcd23dce27353eb6">activePatch</a></td></tr>
 <tr class="memdesc:a488229aa4687ba8ffcd23dce27353eb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this patch actually represents a real orbit patch in the projected flight path. Often <a class="el" href="class_orbit.html#a289bbf364e11c48f59c60049eb005f37">Orbit.nextPatch</a> for the last real will not be null, but will be some sort of bogus <a class="el" href="class_orbit.html">Orbit</a> object. You can recognize these because activePatch will be false.  <a href="#a488229aa4687ba8ffcd23dce27353eb6">More...</a><br /></td></tr>
 <tr class="separator:a488229aa4687ba8ffcd23dce27353eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -553,6 +566,8 @@ ActiveVesselPrimaryConditionallyRotating: If the active vessel is not null, Cond
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a96fe2f2e726341f4b6d1342c792712dfae30fd3901adfda9dc2260d6370961616"></a>MANEUVER&#160;</td><td class="fielddoc">
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a96fe2f2e726341f4b6d1342c792712dfaa6a0ada307ab4bc89c06a3f57fb1b889"></a>IMPACT&#160;</td><td class="fielddoc">
+</td></tr>
 </table>
 
 </div>
@@ -636,6 +651,174 @@ ActiveVesselPrimaryConditionallyRotating: If the active vessel is not null, Cond
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="acc2ff42ec578569f655f3e979fdd25e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_orbit.html">Orbit</a> Orbit.CreateRandomOrbitAround </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_celestial_body.html">CelestialBody</a>&#160;</td>
+          <td class="paramname"><em>body</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1e47757d0369ba692df659fc4842f89f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_orbit.html">Orbit</a> Orbit.CreateRandomOrbitAround </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_celestial_body.html">CelestialBody</a>&#160;</td>
+          <td class="paramname"><em>body</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>minAltitude</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>maxAltitude</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a43eb22ce15d62d6475a10b15bec9dacd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_orbit.html">Orbit</a> Orbit.CreateRandomOrbitFlyBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_celestial_body.html">CelestialBody</a>&#160;</td>
+          <td class="paramname"><em>tgtBody</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>daysToClosestApproach</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7e059d10401c08beac4d4871c197dd84"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_orbit.html">Orbit</a> Orbit.CreateRandomOrbitFlyBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_orbit.html">Orbit</a>&#160;</td>
+          <td class="paramname"><em>targetOrbit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>timeToPeriapsis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>periapsis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>deltaVatPeriapsis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a55bb7b0ee66465319cb6d15777abc375"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_orbit.html">Orbit</a> Orbit.CreateRandomOrbitNearby </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_orbit.html">Orbit</a>&#160;</td>
+          <td class="paramname"><em>baseOrbit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a8c145576d6dae911e8fc8614b45822c1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2403,6 +2586,18 @@ ActiveVesselPrimaryConditionallyRotating: If the active vessel is not null, Cond
 
 </div>
 </div>
+<a class="anchor" id="ac6f6699afd679e068080e7b1a7331f46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double Orbit.Rad2Deg = 57.2958</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a42541e2cae189b49c45c0208db267949"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2792,7 +2987,7 @@ ActiveVesselPrimaryConditionallyRotating: If the active vessel is not null, Cond
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 4 2016 14:05:05 for KSP API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 4 2016 19:06:56 for KSP API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

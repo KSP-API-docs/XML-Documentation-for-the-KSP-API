@@ -19,9 +19,11 @@ var searchData=
   ['count',['Count',['../class_config_node_1_1_config_node_list.html#a54a4927b1ef1f857b6e815b3955300b6',1,'ConfigNode.ConfigNodeList.Count()'],['../class_config_node_1_1_value_list.html#a012db51d99d666a0a8e57d3d637ec838',1,'ConfigNode.ValueList.Count()'],['../class_ship_construct.html#a29251870546b25409cafff0d1c49127c',1,'ShipConstruct.Count()'],['../class_contracts_1_1_text_gen_1_1_text_set.html#ab08e019ae50e3166445e90d0fa11715a',1,'Contracts.TextGen.TextSet.Count()']]],
   ['countnodes',['CountNodes',['../class_config_node.html#ac420546b41e4fd9e2f8ae26addbea2a7',1,'ConfigNode']]],
   ['countvalues',['CountValues',['../class_config_node.html#a76f3d324bbd30d0be1ac51ae0f6633ba',1,'ConfigNode']]],
+  ['currentcom',['CurrentCoM',['../class_vessel.html#ac4f3bd300fb3043a93d496326e55dc0c',1,'Vessel']]],
   ['currentencoding',['CurrentEncoding',['../class_k_s_p_1_1_i_o_1_1_text_reader.html#a32f13e8515457aaa6aa83a543a22e8b8',1,'KSP::IO::TextReader']]],
   ['currentgame',['CurrentGame',['../class_high_logic.html#a440beeca63ded21bdf93d858acfe627b',1,'HighLogic']]],
   ['currentrate',['CurrentRate',['../class_time_warp.html#a6d3a8a1edcc57f330cef65cea0c126f2',1,'TimeWarp']]],
   ['currentrateindex',['CurrentRateIndex',['../class_time_warp.html#ab64211bc31f0cf862377fc777c0ff918',1,'TimeWarp']]],
+  ['currentrep',['CurrentRep',['../class_reputation.html#ad013f6e9e070456d1e1e7b5e087bc07d',1,'Reputation']]],
   ['currentstate',['CurrentState',['../class_kerbal_f_s_m.html#a20bd0e0e820ffb642d4be11a6ee591f0',1,'KerbalFSM']]]
 ];

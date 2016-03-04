@@ -124,7 +124,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0cbf125470d7e66d3d5f966e29c83a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f8cf6134bbdafdec32f03048f6649d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flight_globals.html#a1f8cf6134bbdafdec32f03048f6649d3">SetShipOrbit</a> (int selBodyIndex, double ecc, double sma, double inc, double LAN, double mna, double argPe, double ObT)</td></tr>
 <tr class="separator:a1f8cf6134bbdafdec32f03048f6649d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1792d17424ded4bda94c98e66406badb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flight_globals.html#a1792d17424ded4bda94c98e66406badb">SetVesselTarget</a> (ITargetable tgt)</td></tr>
+<tr class="memitem:a1792d17424ded4bda94c98e66406badb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flight_globals.html#a1792d17424ded4bda94c98e66406badb">SetVesselTarget</a> (<a class="el" href="interface_i_targetable.html">ITargetable</a> tgt)</td></tr>
 <tr class="memdesc:a1792d17424ded4bda94c98e66406badb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the currently selected target vessel, celestial body, or docking node  <a href="#a1792d17424ded4bda94c98e66406badb">More...</a><br /></td></tr>
 <tr class="separator:a1792d17424ded4bda94c98e66406badb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a093c64a854d1177818466273235515bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flight_globals.html#a093c64a854d1177818466273235515bc">Start</a> ()</td></tr>
@@ -308,7 +308,7 @@ Properties</h2></td></tr>
 <tr class="memitem:a6e6fd433e47adf7128a78eb977d2bf2a"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_vessel.html">Vessel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flight_globals.html#a6e6fd433e47adf7128a78eb977d2bf2a">Vessels</a><code> [get]</code></td></tr>
 <tr class="memdesc:a6e6fd433e47adf7128a78eb977d2bf2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of all the Vessels that currently exist  <a href="#a6e6fd433e47adf7128a78eb977d2bf2a">More...</a><br /></td></tr>
 <tr class="separator:a6e6fd433e47adf7128a78eb977d2bf2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a448e6f9d59f5808c17ba8cef008bc4ff"><td class="memItemLeft" align="right" valign="top">ITargetable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flight_globals.html#a448e6f9d59f5808c17ba8cef008bc4ff">VesselTarget</a><code> [get]</code></td></tr>
+<tr class="memitem:a448e6f9d59f5808c17ba8cef008bc4ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_i_targetable.html">ITargetable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flight_globals.html#a448e6f9d59f5808c17ba8cef008bc4ff">VesselTarget</a><code> [get]</code></td></tr>
 <tr class="memdesc:a448e6f9d59f5808c17ba8cef008bc4ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">The currently selected target vessel, celestial body, or docking node. If no target is selected, this is null.  <a href="#a448e6f9d59f5808c17ba8cef008bc4ff">More...</a><br /></td></tr>
 <tr class="separator:a448e6f9d59f5808c17ba8cef008bc4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c4b826d03ff9a6c03c693a184d10611"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_flight_globals.html#ab50e47ef9d99eb711591f9ef94b9194e">FlightGlobals.VesselTargetModes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_flight_globals.html#a2c4b826d03ff9a6c03c693a184d10611">vesselTargetMode</a><code> [get]</code></td></tr>
@@ -1166,7 +1166,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">void FlightGlobals.SetVesselTarget </td>
           <td>(</td>
-          <td class="paramtype">ITargetable&#160;</td>
+          <td class="paramtype"><a class="el" href="interface_i_targetable.html">ITargetable</a>&#160;</td>
           <td class="paramname"><em>tgt</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2193,7 +2193,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ITargetable FlightGlobals.VesselTarget</td>
+          <td class="memname"><a class="el" href="interface_i_targetable.html">ITargetable</a> FlightGlobals.VesselTarget</td>
         </tr>
       </table>
   </td>
@@ -2233,7 +2233,7 @@ Properties</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 4 2016 14:05:04 for KSP API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 4 2016 19:06:56 for KSP API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
