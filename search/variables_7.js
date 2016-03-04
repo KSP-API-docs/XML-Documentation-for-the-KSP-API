@@ -18,5 +18,5 @@ var searchData=
   ['hillsphere',['hillSphere',['../class_celestial_body.html#ab4de9a062a1180879d6778699e7eacd7',1,'CelestialBody']]],
   ['hopthreshold',['hopThreshold',['../class_kerbal_e_v_a.html#ac1680902cd0b965e3aa7074566b74d45',1,'KerbalEVA']]],
   ['horizontalsrfspeed',['horizontalSrfSpeed',['../class_vessel.html#a46e554a370bcf9a9b9f5157c516cb75a',1,'Vessel']]],
-  ['host',['host',['../struct_game_events_1_1_hosted_from_to_action_3_01_a_00_01_b_01_4.html#ab1a94e340d6296343391dd3ef1f8665d',1,'GameEvents.HostedFromToAction&lt; A, B &gt;.host()'],['../struct_game_events_1_1_host_target_action_3_01_a_00_01_b_01_4.html#a6d60073caa18235c31e4e0aa000d9e2b',1,'GameEvents.HostTargetAction&lt; A, B &gt;.host()']]]
+  ['host',['host',['../struct_game_events_1_1_hosted_from_to_action.html#ab1a94e340d6296343391dd3ef1f8665d',1,'GameEvents.HostedFromToAction.host()'],['../struct_game_events_1_1_host_target_action.html#a6d60073caa18235c31e4e0aa000d9e2b',1,'GameEvents.HostTargetAction.host()']]]
 ];

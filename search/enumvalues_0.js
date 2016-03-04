@@ -5,7 +5,7 @@ var searchData=
   ['actions_5fall',['ACTIONS_ALL',['../_control_types_8cs.html#a0119b266bd804d818bf01e957f37217aa8c17759905929bf68b33d57e2d837ff8',1,'ControlTypes.cs']]],
   ['actions_5fexternal',['ACTIONS_EXTERNAL',['../_control_types_8cs.html#a0119b266bd804d818bf01e957f37217aa58e59c13bcd61bc4ec56146e4b1049fe',1,'ControlTypes.cs']]],
   ['actions_5fship',['ACTIONS_SHIP',['../_control_types_8cs.html#a0119b266bd804d818bf01e957f37217aa26ed0882555788de57d6b2f8c4143b40',1,'ControlTypes.cs']]],
-  ['active',['ACTIVE',['../class_vessel.html#ab7d63804a51d0abd2854747e87a824a4a18ff74f43da410c5529f7d6fca84f115',1,'Vessel']]],
+  ['active',['Active',['../class_contracts_1_1_contract.html#abb990efedd57d930e802d127303c1af2a4d3d769b812b6faa6b76e1a8abaece2d',1,'Contracts.Contract.Active()'],['../class_vessel.html#ab7d63804a51d0abd2854747e87a824a4a18ff74f43da410c5529f7d6fca84f115',1,'Vessel.ACTIVE()']]],
   ['add',['ADD',['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4ba9eeb52badb613229884838847294b90d',1,'HighLogic']]],
   ['addtoallgames',['AddToAllGames',['../_scenario_creation_options_8cs.html#aef569c179851754ae041daaaf66454e7afbab7881b9de37bd5d3b8ae6ffe9641b',1,'ScenarioCreationOptions.cs']]],
   ['addtoexistingcareergames',['AddToExistingCareerGames',['../_scenario_creation_options_8cs.html#aef569c179851754ae041daaaf66454e7a01d283a556ebe94bddbbd2d7308bf480',1,'ScenarioCreationOptions.cs']]],

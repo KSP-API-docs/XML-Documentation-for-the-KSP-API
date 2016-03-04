@@ -47,7 +47,7 @@ var searchData=
   ['currentamount',['currentAmount',['../class_module_engines_1_1_propellant.html#a5a35097d109fb72ea0286384a548fb3e',1,'ModuleEngines::Propellant']]],
   ['currentcollisions',['currentCollisions',['../class_part.html#a28555f8e088cb0830ca789876290fbfc',1,'Part']]],
   ['currentgame',['currentGame',['../class_high_logic.html#af0dc06c5576041361564ac6fb60269ab',1,'HighLogic']]],
-  ['currentmainbody',['currentMainBody',['../class_flight_globals.html#afa568e6275ac1cc69db0ccc65d930eaf',1,'FlightGlobals.currentMainBody()'],['../class_planetarium.html#a8aff321e99fe100e419887f680a7cd56',1,'Planetarium.CurrentMainBody()']]],
+  ['currentmainbody',['CurrentMainBody',['../class_planetarium.html#a8aff321e99fe100e419887f680a7cd56',1,'Planetarium.CurrentMainBody()'],['../class_flight_globals.html#afa568e6275ac1cc69db0ccc65d930eaf',1,'FlightGlobals.currentMainBody()']]],
   ['currentpage',['currentPage',['../class_tutorial_scenario.html#ae9b18bff50c8313417cec95ff4f0c1b4',1,'TutorialScenario']]],
   ['currentrequirement',['currentRequirement',['../class_module_engines_1_1_propellant.html#aa3c01ff5e84383a2f9aeee80d48f640f',1,'ModuleEngines::Propellant']]],
   ['currentstage',['currentStage',['../class_vessel.html#ad58062960e5dfe4e5d50d015bc073712',1,'Vessel']]],

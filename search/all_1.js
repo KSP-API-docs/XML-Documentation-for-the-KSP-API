@@ -1,7 +1,7 @@
 var searchData=
 [
   ['b',['B',['../_untracked_object_class_8cs.html#aa4534f4ef35a5b44e916abb50aa15070a9d5ed678fe57bcca610140957afab571',1,'UntrackedObjectClass.cs']]],
-  ['back',['back',['../struct_vector3d.html#a8d708c6b301442d9c7e9014299e35195',1,'Vector3d.back()'],['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4ba1dd26f1f1790f0b56d5752fb0fbecef0',1,'HighLogic.BACK()']]],
+  ['back',['BACK',['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4ba1dd26f1f1790f0b56d5752fb0fbecef0',1,'HighLogic.BACK()'],['../struct_vector3d.html#a8d708c6b301442d9c7e9014299e35195',1,'Vector3d.back()']]],
   ['backupvessel',['BackupVessel',['../class_vessel.html#adbab00e81ea60a098cc48c6d8d8447f5',1,'Vessel']]],
   ['baseaction',['BaseAction',['../class_base_action.html',1,'BaseAction'],['../class_base_action.html#a885622ff0a271a910fc130e0cafea84c',1,'BaseAction.BaseAction()']]],
   ['baseaction_2ecs',['BaseAction.cs',['../_base_action_8cs.html',1,'']]],
@@ -36,8 +36,12 @@ var searchData=
   ['breakingtorque',['breakingTorque',['../class_attach_node.html#a120e19800b51dfe26e00f269868e56fd',1,'AttachNode.breakingTorque()'],['../class_part.html#a126303550d6dbc5b0408ee37f8843660',1,'Part.breakingTorque()']]],
   ['breakline',['BreakLine',['../class_fuel_line.html#a196b808a2383c5edb39782c31381c986',1,'FuelLine']]],
   ['brightnesscurve',['brightnessCurve',['../class_sun.html#ac39563c970a66fce4e6fdc388fc5b32b',1,'Sun']]],
+  ['btnaccept',['btnAccept',['../class_administration.html#a322e9b62bcd9a17349d2425f037d1181',1,'Administration']]],
+  ['btncancel',['btnCancel',['../class_administration.html#aebf4396752f2bbd79cbd59f052af9077',1,'Administration']]],
   ['btnexpand',['btnExpand',['../class_r_d_archives_controller.html#a1362f32e6835622177b44ce472aef491',1,'RDArchivesController']]],
   ['btnreset',['btnReset',['../class_r_d_archives_controller.html#a851af6b2ff2dacd37a552d434b5fd823',1,'RDArchivesController']]],
   ['buoyancy',['buoyancy',['../class_part.html#ae80a7974c749e83d6bc5f7560bc65a75',1,'Part']]],
-  ['burstflameoutgroups',['BurstFlameoutGroups',['../class_module_engines.html#a58a9cb6228ee63f8e327e6ced62cb6ec',1,'ModuleEngines']]]
+  ['burstflameoutgroups',['BurstFlameoutGroups',['../class_module_engines.html#a58a9cb6228ee63f8e327e6ced62cb6ec',1,'ModuleEngines']]],
+  ['button',['button',['../class_administration_1_1_strategy_wrapper.html#a407de827a4d77e7bccbc953f7ba6a0d4',1,'Administration::StrategyWrapper']]],
+  ['buttoninuse',['ButtonInUse',['../class_administration_1_1_strategy_wrapper.html#a39854a9eef8a25745f28aa11ba21ba37',1,'Administration::StrategyWrapper']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['radius',['radius',['../class_attach_node.html#aa66a0900e5a1ef39e36242bc213ab243',1,'AttachNode.radius()'],['../class_orbit.html#a42541e2cae189b49c45c0208db267949',1,'Orbit.radius()'],['../class_procedural_asteroid.html#a5b7823c5f7db37ab3736ff2775eeb286',1,'ProceduralAsteroid.radius()'],['../class_celestial_body.html#aff0c92091394522f63428e4a88145a94',1,'CelestialBody.Radius()']]],
+  ['radius',['Radius',['../class_celestial_body.html#aff0c92091394522f63428e4a88145a94',1,'CelestialBody.Radius()'],['../class_attach_node.html#aa66a0900e5a1ef39e36242bc213ab243',1,'AttachNode.radius()'],['../class_orbit.html#a42541e2cae189b49c45c0208db267949',1,'Orbit.radius()'],['../class_procedural_asteroid.html#a5b7823c5f7db37ab3736ff2775eeb286',1,'ProceduralAsteroid.radius()']]],
   ['radiusfactor',['radiusFactor',['../class_procedural_asteroid_1_1_mod_value.html#a148015e6cfabbba8a710d2d37c6eaa0a',1,'ProceduralAsteroid::ModValue']]],
   ['ragdollnodes',['ragdollNodes',['../class_kerbal_e_v_a.html#a004c1c44b540bbbbfd35f17701b6e7df',1,'KerbalEVA']]],
   ['ratio',['ratio',['../class_module_engines_1_1_propellant.html#aec794856c019ffe0762d79bc05125c5b',1,'ModuleEngines::Propellant']]],
@@ -8,7 +8,7 @@ var searchData=
   ['rbvel',['RBVel',['../class_krakensbane.html#aca5edb2e2fc2de5bc7dbb64bbff6fb97',1,'Krakensbane']]],
   ['rcsdeadzone',['rcsDeadZone',['../class_flight_input_handler.html#a019970ee0533cd1dd5b54d7b341dedc7',1,'FlightInputHandler']]],
   ['rcslock',['rcslock',['../class_flight_input_handler.html#a362a8f956c675b9b6dba739aee5249da',1,'FlightInputHandler']]],
-  ['ready',['ready',['../class_flight_globals.html#a0722c7b28aa634bfe83f48c26fed6835',1,'FlightGlobals.ready()'],['../class_application_launcher.html#aea384a13ab78885be4800e2334427700',1,'ApplicationLauncher.Ready()']]],
+  ['ready',['Ready',['../class_application_launcher.html#aea384a13ab78885be4800e2334427700',1,'ApplicationLauncher.Ready()'],['../class_flight_globals.html#a0722c7b28aa634bfe83f48c26fed6835',1,'FlightGlobals.ready()']]],
   ['realisp',['realIsp',['../class_module_engines.html#a05cab0a329a925dbd1eb70a5477fab00',1,'ModuleEngines']]],
   ['recoverthreshold',['recoverThreshold',['../class_kerbal_e_v_a.html#a267d53a8523a797eff4171038fc0b9e1',1,'KerbalEVA']]],
   ['recovertime',['recoverTime',['../class_kerbal_e_v_a.html#ae28f38c34a09e98fe5cf3dc34592c64b',1,'KerbalEVA']]],
@@ -24,6 +24,8 @@ var searchData=
   ['reportsortname',['reportSortName',['../class_r_d_archives_controller.html#a4b83d68b465ff5857af6676fc4d59999',1,'RDArchivesController']]],
   ['reportsortscience',['reportSortScience',['../class_r_d_archives_controller.html#ab2219374aa266aa2394b20d4f586c238',1,'RDArchivesController']]],
   ['reportsortvalue',['reportSortValue',['../class_r_d_archives_controller.html#a296e51344fb46ff001c55e350dce315b',1,'RDArchivesController']]],
+  ['reputationcompletion',['ReputationCompletion',['../class_contracts_1_1_contract.html#a6c38d0b6667ad5270c41faddd8d601ab',1,'Contracts::Contract']]],
+  ['reputationfailure',['ReputationFailure',['../class_contracts_1_1_contract.html#a966e75fee9ddb1044d4a1338ac81fb71',1,'Contracts::Contract']]],
   ['requestedthrottle',['requestedThrottle',['../class_module_engines.html#a3a07b5fc5b8c1cd8328584f1ad1acd12',1,'ModuleEngines']]],
   ['requestedthrust',['requestedThrust',['../class_module_engines.html#a0279cc16905a80695ac08e7d8eee2ade',1,'ModuleEngines']]],
   ['requestgate',['requestGate',['../class_attach_node.html#a6336ab68cb15d6c77adcf95f8e5d9926',1,'AttachNode']]],

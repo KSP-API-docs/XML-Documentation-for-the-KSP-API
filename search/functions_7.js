@@ -13,6 +13,6 @@ var searchData=
   ['hide',['Hide',['../class_application_launcher.html#a5d3b5ce69f65a933ff70466a7058cd52',1,'ApplicationLauncher']]],
   ['hidesurfaceresource',['HideSurfaceResource',['../class_celestial_body.html#a80da1f6a62a1db25b37efcf4d24dd589',1,'CelestialBody']]],
   ['highlogic',['HighLogic',['../class_high_logic.html#a72db4e1f3bd1b87d5f6e0a179ea39e33',1,'HighLogic']]],
-  ['hostedfromtoaction',['HostedFromToAction',['../struct_game_events_1_1_hosted_from_to_action_3_01_a_00_01_b_01_4.html#a38a67826dc89c29b82efcb51ab427b3e',1,'GameEvents::HostedFromToAction&lt; A, B &gt;']]],
-  ['hosttargetaction',['HostTargetAction',['../struct_game_events_1_1_host_target_action_3_01_a_00_01_b_01_4.html#a1b515de13e53cf7e799800891729efe9',1,'GameEvents::HostTargetAction&lt; A, B &gt;']]]
+  ['hostedfromtoaction',['HostedFromToAction',['../struct_game_events_1_1_hosted_from_to_action.html#a38a67826dc89c29b82efcb51ab427b3e',1,'GameEvents::HostedFromToAction']]],
+  ['hosttargetaction',['HostTargetAction',['../struct_game_events_1_1_host_target_action.html#a1b515de13e53cf7e799800891729efe9',1,'GameEvents::HostTargetAction']]]
 ];

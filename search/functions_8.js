@@ -9,6 +9,7 @@ var searchData=
   ['isavailablewhile',['IsAvailableWhile',['../class_science_experiment.html#a022972a82c3cc1fc3209b94bc3e3b123',1,'ScienceExperiment']]],
   ['iscleartosave',['IsClearToSave',['../class_vessel.html#a2d01f1684ef676c59f334d1ce8c2eecf',1,'Vessel']]],
   ['iscontrollable',['isControllable',['../class_ship_construct.html#a35c648da426ed0751ecfcf14ee294ab0',1,'ShipConstruct']]],
+  ['isfinished',['IsFinished',['../class_contracts_1_1_contract.html#abf564547c4879afcbdde42b1d28cd846',1,'Contracts::Contract']]],
   ['islocked',['IsLocked',['../class_input_lock_manager.html#a64134c58b36a7cb458c0d5b8dbc184a6',1,'InputLockManager.IsLocked(ControlTypes controlType)'],['../class_input_lock_manager.html#a5b4d51c8cfbd533b96f6d0edea386c17',1,'InputLockManager.IsLocked(ControlTypes controlType, ControlTypes refMask)']]],
   ['isrerunnable',['IsRerunnable',['../interface_i_science_data_container.html#a9186252fdfbd0c5658dc18ab8258f716',1,'IScienceDataContainer.IsRerunnable()'],['../class_module_science_experiment.html#ad9a5d78671a7bc1800406e53854d5693',1,'ModuleScienceExperiment.IsRerunnable()']]],
   ['issymmetrycounterpart',['isSymmetryCounterPart',['../class_part.html#a72eef89ddf1fb41d64703077b1f1684d',1,'Part']]],

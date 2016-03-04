@@ -38,9 +38,9 @@ var searchData=
   ['home',['HOME',['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4ba710533dd879dd1202e5c73b27705bf02',1,'HighLogic']]],
   ['hopthreshold',['hopThreshold',['../class_kerbal_e_v_a.html#ac1680902cd0b965e3aa7074566b74d45',1,'KerbalEVA']]],
   ['horizontalsrfspeed',['horizontalSrfSpeed',['../class_vessel.html#a46e554a370bcf9a9b9f5157c516cb75a',1,'Vessel']]],
-  ['host',['host',['../struct_game_events_1_1_hosted_from_to_action_3_01_a_00_01_b_01_4.html#ab1a94e340d6296343391dd3ef1f8665d',1,'GameEvents.HostedFromToAction&lt; A, B &gt;.host()'],['../struct_game_events_1_1_host_target_action_3_01_a_00_01_b_01_4.html#a6d60073caa18235c31e4e0aa000d9e2b',1,'GameEvents.HostTargetAction&lt; A, B &gt;.host()']]],
-  ['hostedfromtoaction',['HostedFromToAction',['../struct_game_events_1_1_hosted_from_to_action_3_01_a_00_01_b_01_4.html#a38a67826dc89c29b82efcb51ab427b3e',1,'GameEvents::HostedFromToAction&lt; A, B &gt;']]],
-  ['hostedfromtoaction_3c_20a_2c_20b_20_3e',['HostedFromToAction&lt; A, B &gt;',['../struct_game_events_1_1_hosted_from_to_action_3_01_a_00_01_b_01_4.html',1,'GameEvents']]],
-  ['hosttargetaction',['HostTargetAction',['../struct_game_events_1_1_host_target_action_3_01_a_00_01_b_01_4.html#a1b515de13e53cf7e799800891729efe9',1,'GameEvents::HostTargetAction&lt; A, B &gt;']]],
-  ['hosttargetaction_3c_20a_2c_20b_20_3e',['HostTargetAction&lt; A, B &gt;',['../struct_game_events_1_1_host_target_action_3_01_a_00_01_b_01_4.html',1,'GameEvents']]]
+  ['host',['host',['../struct_game_events_1_1_hosted_from_to_action.html#ab1a94e340d6296343391dd3ef1f8665d',1,'GameEvents.HostedFromToAction.host()'],['../struct_game_events_1_1_host_target_action.html#a6d60073caa18235c31e4e0aa000d9e2b',1,'GameEvents.HostTargetAction.host()']]],
+  ['hostedfromtoaction',['HostedFromToAction',['../struct_game_events_1_1_hosted_from_to_action.html#a38a67826dc89c29b82efcb51ab427b3e',1,'GameEvents::HostedFromToAction']]],
+  ['hostedfromtoaction',['HostedFromToAction',['../struct_game_events_1_1_hosted_from_to_action.html',1,'GameEvents']]],
+  ['hosttargetaction',['HostTargetAction',['../struct_game_events_1_1_host_target_action.html',1,'GameEvents']]],
+  ['hosttargetaction',['HostTargetAction',['../struct_game_events_1_1_host_target_action.html#a1b515de13e53cf7e799800891729efe9',1,'GameEvents::HostTargetAction']]]
 ];

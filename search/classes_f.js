@@ -9,5 +9,6 @@ var searchData=
   ['screenmessages',['ScreenMessages',['../class_screen_messages.html',1,'']]],
   ['shipconstruct',['ShipConstruct',['../class_ship_construct.html',1,'']]],
   ['spacecenter',['SpaceCenter',['../class_space_center.html',1,'']]],
+  ['strategywrapper',['StrategyWrapper',['../class_administration_1_1_strategy_wrapper.html',1,'Administration']]],
   ['sun',['Sun',['../class_sun.html',1,'']]]
 ];
