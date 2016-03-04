@@ -5,5 +5,5 @@ var searchData=
   ['nodes',['nodes',['../class_config_node.html#aa827fb9af2e2d566991e26c7b6f0052d',1,'ConfigNode']]],
   ['normalized',['normalized',['../struct_vector3d.html#a45908a89b3874a4df667b706508a528f',1,'Vector3d']]],
   ['normalizedthrustoutput',['normalizedThrustOutput',['../class_module_engines.html#a781a4ea518a3c8ee174e75d53a2f279e',1,'ModuleEngines']]],
-  ['notes',['Notes',['../class_contracts_1_1_contract.html#a3eb6de2366afe324ce84e0fa34dad493',1,'Contracts::Contract']]]
+  ['notes',['Notes',['../class_contracts_1_1_contract.html#a3eb6de2366afe324ce84e0fa34dad493',1,'Contracts.Contract.Notes()'],['../class_contracts_1_1_contract_parameter.html#a270f4ea391a5fa516b28d5925454e645',1,'Contracts.ContractParameter.Notes()']]]
 ];

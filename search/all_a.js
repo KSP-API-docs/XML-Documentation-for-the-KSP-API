@@ -10,6 +10,8 @@ var searchData=
   ['kerbalfsm_2ecs',['KerbalFSM.cs',['../_kerbal_f_s_m_8cs.html',1,'']]],
   ['kerbalinstructor',['KerbalInstructor',['../class_kerbal_instructor.html',1,'KerbalInstructor'],['../class_kerbal_instructor.html#a1590ef827bf74c6541e2079497fbb4b2',1,'KerbalInstructor.KerbalInstructor()']]],
   ['kerbalinstructor_2ecs',['KerbalInstructor.cs',['../_kerbal_instructor_8cs.html',1,'']]],
+  ['kerbalref',['KerbalRef',['../class_proto_crew_member.html#a2ed77f4e72540d63a7e8cd19118663f7',1,'ProtoCrewMember']]],
+  ['kerbaltype',['KerbalType',['../class_proto_crew_member.html#add857d7c54b41d783618ea6182ce895f',1,'ProtoCrewMember']]],
   ['key',['key',['../struct_r_d_archives_controller_1_1_filter.html#abd58083ac8c2566a525d3979ba73b943',1,'RDArchivesController::Filter']]],
   ['keywords',['Keywords',['../class_contracts_1_1_contract.html#a02f7186282a147281595935d39094c94',1,'Contracts::Contract']]],
   ['keywordsrequired',['KeywordsRequired',['../class_contracts_1_1_contract.html#ad29840ccca0992c217973da748c67724',1,'Contracts::Contract']]],

@@ -1,7 +1,6 @@
 var searchData=
 [
   ['uicameras',['uiCameras',['../class_map_view.html#a36a6331096e5d40bb17634fe36fad198',1,'MapView']]],
-  ['uid',['uid',['../class_part.html#a03ddae8c852025f871d5e602065d967c',1,'Part']]],
   ['unfocusedrange',['unfocusedRange',['../class_k_s_p_event.html#a644e8f5b1b2bcfca825708e9946ac2b0',1,'KSPEvent']]],
   ['unloaddistance',['unloadDistance',['../class_vessel.html#a9e5f91c9c7ec2d83629f84065513527f',1,'Vessel']]],
   ['upaxis',['upAxis',['../class_vessel.html#a317d583cbe03e62a72fb1dd32dae8bc8',1,'Vessel']]],
@@ -18,5 +17,7 @@ var searchData=
   ['usevelocitycurve',['useVelocityCurve',['../class_module_engines.html#a00b44aa87967aee97834ec74b03dd15e',1,'ModuleEngines']]],
   ['ut',['UT',['../class_maneuver_node.html#a1b3dd952859bbb5885340b88b565bd8b',1,'ManeuverNode']]],
   ['utappr',['UTappr',['../class_orbit.html#a3cb156bbacd2c2434cad3dbd4b0cadde',1,'Orbit']]],
+  ['utar',['UTaR',['../class_proto_crew_member.html#a59f56946d2e8194e5ea01870e7403318',1,'ProtoCrewMember']]],
+  ['utatta',['UTatTA',['../struct_patched_conics_1_1_patch_cast_hit.html#ab757840adf2a7b453bf3d8c95206b9ba',1,'PatchedConics::PatchCastHit']]],
   ['utsoi',['UTsoi',['../class_orbit.html#a591a97d8327e1df4fcac6720e5f2e986',1,'Orbit']]]
 ];

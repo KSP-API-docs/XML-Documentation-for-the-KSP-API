@@ -1,7 +1,7 @@
 var searchData=
 [
   ['d',['D',['../_untracked_object_class_8cs.html#aa4534f4ef35a5b44e916abb50aa15070af623e75af30e62bbd73d6df5b50bb7b5',1,'UntrackedObjectClass.cs']]],
-  ['dead',['DEAD',['../class_vessel.html#ab7d63804a51d0abd2854747e87a824a4abb4784231ff45108ee20bad16e4a2e8c',1,'Vessel']]],
+  ['dead',['Dead',['../class_proto_crew_member.html#a46b1478859ae04f6f36de49f1c1ae90ba183b62c7f067711f9c5a54913c054617',1,'ProtoCrewMember.Dead()'],['../class_vessel.html#ab7d63804a51d0abd2854747e87a824a4abb4784231ff45108ee20bad16e4a2e8c',1,'Vessel.DEAD()']]],
   ['deadlineexpired',['DeadlineExpired',['../class_contracts_1_1_contract.html#abb990efedd57d930e802d127303c1af2af05beaddea4c33d6db8c605732bf528e',1,'Contracts::Contract']]],
   ['decimal',['DECIMAL',['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4ba13d992d671957e9a2b3e936ca0cf14a4',1,'HighLogic']]],
   ['declined',['Declined',['../class_contracts_1_1_contract.html#abb990efedd57d930e802d127303c1af2a616b5940be86c327aaa5090f50c061f5',1,'Contracts::Contract']]],

@@ -12,6 +12,7 @@ var searchData=
   ['resourcetransfermode',['resourceTransferMode',['../class_part_resource_definition.html#a650257c98f3529bfc88ea1da13977d16',1,'PartResourceDefinition']]],
   ['right',['right',['../class_planetarium.html#acb8953402ccf0c815294fe6b4c690aa3',1,'Planetarium.right()'],['../struct_vector3d.html#a09d484660f89e92b1e17c3218cb83c8a',1,'Vector3d.right()']]],
   ['rigidbody',['Rigidbody',['../class_part.html#a480a6807145118756ac8f882abd33b42',1,'Part']]],
-  ['root',['Root',['../class_contracts_1_1_contract.html#a4661ffa9ff65a4fc97ec5d46dc248ec1',1,'Contracts::Contract']]],
+  ['root',['Root',['../class_contracts_1_1_contract.html#a4661ffa9ff65a4fc97ec5d46dc248ec1',1,'Contracts.Contract.Root()'],['../class_contracts_1_1_contract_parameter.html#a7267e53c8b0312f7ba783c0302b1a39c',1,'Contracts.ContractParameter.Root()'],['../class_contracts_1_1_contract_predicate.html#a5123b13da0d896a28e878e279f9d09c2',1,'Contracts.ContractPredicate.Root()']]],
+  ['rosterstatus',['rosterStatus',['../class_proto_crew_member.html#ac6261c74239cfee5eddab6fcfb92de1f',1,'ProtoCrewMember']]],
   ['rotation',['Rotation',['../class_planetarium.html#a55ac5ee010f611c35c4b2a4c6feab45a',1,'Planetarium']]]
 ];

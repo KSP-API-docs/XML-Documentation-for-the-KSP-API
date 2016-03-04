@@ -106,6 +106,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_events_1_1_from_to_action.html">FromToAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two objects; of the same type in all stock uses.  <a href="struct_game_events_1_1_from_to_action.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events_1_1_game_modifiers.html">GameModifiers</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_game_events_1_1_hosted_from_to_action.html">HostedFromToAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two potentially different object types; the From/To object (B) returns two values, generally the old and new.  <a href="struct_game_events_1_1_hosted_from_to_action.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,9 +125,13 @@ Classes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a2712d503dade12e1339da59d781e181e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a2712d503dade12e1339da59d781e181e">debugEvents</a></td></tr>
 <tr class="separator:a2712d503dade12e1339da59d781e181e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a056d0d8b6616e763c6f23eff80f0ae93"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_game_events_1_1_game_modifiers.html">GameEvents.GameModifiers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a056d0d8b6616e763c6f23eff80f0ae93">Modifiers</a></td></tr>
+<tr class="separator:a056d0d8b6616e763c6f23eff80f0ae93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78b15542c658560f6cae3254c287cf7b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_vessel.html">Vessel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a78b15542c658560f6cae3254c287cf7b">onActiveJointNeedUpdate</a></td></tr>
 <tr class="memdesc:a78b15542c658560f6cae3254c287cf7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a vessel docks or attaches with the grappling device; fires twice, once for each vessel  <a href="#a78b15542c658560f6cae3254c287cf7b">More...</a><br /></td></tr>
 <tr class="separator:a78b15542c658560f6cae3254c287cf7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c782f5fa2a8919dde8fec4bc7e10127"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a8c782f5fa2a8919dde8fec4bc7e10127">OnAppFocus</a></td></tr>
+<tr class="separator:a8c782f5fa2a8919dde8fec4bc7e10127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a410afb864abd757a54f6e9d6eef71636"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_event_report.html">EventReport</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a410afb864abd757a54f6e9d6eef71636">onCollision</a></td></tr>
 <tr class="memdesc:a410afb864abd757a54f6e9d6eef71636"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when two parts collide  <a href="#a410afb864abd757a54f6e9d6eef71636">More...</a><br /></td></tr>
 <tr class="separator:a410afb864abd757a54f6e9d6eef71636"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,36 +147,76 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:ab2a626acd8fb45ffe0d8c3bd00f228ac"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_event_report.html">EventReport</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ab2a626acd8fb45ffe0d8c3bd00f228ac">onCrewKilled</a></td></tr>
 <tr class="memdesc:ab2a626acd8fb45ffe0d8c3bd00f228ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered whenever a Kerbal dies; either on EVA or in a crashing vessel  <a href="#ab2a626acd8fb45ffe0d8c3bd00f228ac">More...</a><br /></td></tr>
 <tr class="separator:ab2a626acd8fb45ffe0d8c3bd00f228ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e6eb06a680904668d3ff16e93a39cae"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a1e6eb06a680904668d3ff16e93a39cae">OnCrewmemberHired</a></td></tr>
+<tr class="separator:a1e6eb06a680904668d3ff16e93a39cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf4e177a0304307b73aa0e555c4337b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a1bf4e177a0304307b73aa0e555c4337b">OnCrewmemberLeftForDead</a></td></tr>
+<tr class="separator:a1bf4e177a0304307b73aa0e555c4337b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a049ae51db7b9124ae8e23810c3e07a08"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a049ae51db7b9124ae8e23810c3e07a08">OnCrewmemberSacked</a></td></tr>
+<tr class="separator:a049ae51db7b9124ae8e23810c3e07a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a115547627e02f800818f9e5df34770a7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="struct_game_events_1_1_from_to_action.html">GameEvents.FromToAction</a>&lt; <a class="el" href="class_part.html">Part</a>, <a class="el" href="class_part.html">Part</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a115547627e02f800818f9e5df34770a7">onCrewOnEva</a></td></tr>
 <tr class="memdesc:a115547627e02f800818f9e5df34770a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a Kerbal goes on EVA  <a href="#a115547627e02f800818f9e5df34770a7">More...</a><br /></td></tr>
 <tr class="separator:a115547627e02f800818f9e5df34770a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa801df46e0eb041ad7a37022f12af230"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="struct_game_events_1_1_hosted_from_to_action.html">GameEvents.HostedFromToAction</a>&lt; <a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, <a class="el" href="class_part.html">Part</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#aa801df46e0eb041ad7a37022f12af230">onCrewTransferred</a></td></tr>
+<tr class="separator:aa801df46e0eb041ad7a37022f12af230"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5555694a6b4264ff6a7e86c3a614a299"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="struct_game_events_1_1_from_to_action.html">GameEvents.FromToAction</a>&lt; <a class="el" href="class_celestial_body.html">CelestialBody</a>, <a class="el" href="class_celestial_body.html">CelestialBody</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a5555694a6b4264ff6a7e86c3a614a299">onDominantBodyChange</a></td></tr>
 <tr class="memdesc:a5555694a6b4264ff6a7e86c3a614a299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when changing SOI; both objects return the new dominant <a class="el" href="class_celestial_body.html" title="The Sun, the planets, and the moons are all CelestialBodies. ">CelestialBody</a>  <a href="#a5555694a6b4264ff6a7e86c3a614a299">More...</a><br /></td></tr>
 <tr class="separator:a5555694a6b4264ff6a7e86c3a614a299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be73cd28cadbc9f5825c9204dbb9b76"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; ConstructionMode &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a9be73cd28cadbc9f5825c9204dbb9b76">onEditorConstructionModeChange</a></td></tr>
+<tr class="separator:a9be73cd28cadbc9f5825c9204dbb9b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43ee13f2de00a985a61ec301863a300"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_ship_construct.html">ShipConstruct</a>, CraftBrowser.LoadType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#af43ee13f2de00a985a61ec301863a300">onEditorLoad</a></td></tr>
+<tr class="separator:af43ee13f2de00a985a61ec301863a300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01de36805f858a9eed47109c00be06d5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; ConstructionEventType, <a class="el" href="class_part.html">Part</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a01de36805f858a9eed47109c00be06d5">onEditorPartEvent</a></td></tr>
+<tr class="separator:a01de36805f858a9eed47109c00be06d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c16de0da91e638221d6805d0482de2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_ship_construct.html">ShipConstruct</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a66c16de0da91e638221d6805d0482de2">onEditorRedo</a></td></tr>
+<tr class="separator:a66c16de0da91e638221d6805d0482de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada2a31bdb827059cef369aae22e5d185"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ada2a31bdb827059cef369aae22e5d185">onEditorRestart</a></td></tr>
+<tr class="separator:ada2a31bdb827059cef369aae22e5d185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade87a11226c11c54f0ac6580444fe8ca"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; EditorScreen &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ade87a11226c11c54f0ac6580444fe8ca">onEditorScreenChange</a></td></tr>
+<tr class="separator:ade87a11226c11c54f0ac6580444fe8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb278bbefd38b4c57380373a5560a202"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_ship_construct.html">ShipConstruct</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#afb278bbefd38b4c57380373a5560a202">onEditorShipModified</a></td></tr>
 <tr class="memdesc:afb278bbefd38b4c57380373a5560a202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when any part is added or removed from a vessel in the editor; also triggered when any tweakable settings are changed; also when undo is called  <a href="#afb278bbefd38b4c57380373a5560a202">More...</a><br /></td></tr>
 <tr class="separator:afb278bbefd38b4c57380373a5560a202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acec762a425e00bc5c33c62351f1ea87c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#acec762a425e00bc5c33c62351f1ea87c">onEditorShowPartList</a></td></tr>
+<tr class="separator:acec762a425e00bc5c33c62351f1ea87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7200f4b3c3a3925cff188bd58187d0b5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a7200f4b3c3a3925cff188bd58187d0b5">onEditorSnapModeChange</a></td></tr>
+<tr class="separator:a7200f4b3c3a3925cff188bd58187d0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac710e0833eebfe6467357b95d57c5ddf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; global::UnityEngine.Space &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ac710e0833eebfe6467357b95d57c5ddf">onEditorSymmetryCoordsChange</a></td></tr>
+<tr class="separator:ac710e0833eebfe6467357b95d57c5ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cbb1bbfb63c98ec711afe09e71bf3bd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; SymmetryMethod &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a0cbb1bbfb63c98ec711afe09e71bf3bd">onEditorSymmetryMethodChange</a></td></tr>
+<tr class="separator:a0cbb1bbfb63c98ec711afe09e71bf3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6c35d941384897ae344aedd46d6d87c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ad6c35d941384897ae344aedd46d6d87c">onEditorSymmetryModeChange</a></td></tr>
+<tr class="separator:ad6c35d941384897ae344aedd46d6d87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87cbe9a57d615df8aeac5e83dd58c16e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_ship_construct.html">ShipConstruct</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a87cbe9a57d615df8aeac5e83dd58c16e">onEditorUndo</a></td></tr>
+<tr class="separator:a87cbe9a57d615df8aeac5e83dd58c16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5222b5573184f0386582f3c44f7966d7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_science_data.html">ScienceData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a5222b5573184f0386582f3c44f7966d7">OnExperimentDeployed</a></td></tr>
+<tr class="separator:a5222b5573184f0386582f3c44f7966d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa018343ae91ed13d9100450a6e9066f2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_vessel.html">Vessel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#aa018343ae91ed13d9100450a6e9066f2">onFlagPlant</a></td></tr>
 <tr class="memdesc:aa018343ae91ed13d9100450a6e9066f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">When a flag is planted by an EVA Kerbal  <a href="#aa018343ae91ed13d9100450a6e9066f2">More...</a><br /></td></tr>
 <tr class="separator:aa018343ae91ed13d9100450a6e9066f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2891185d24110ddfdb6ab304ad983b0c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a2891185d24110ddfdb6ab304ad983b0c">onFlagSelect</a></td></tr>
 <tr class="memdesc:a2891185d24110ddfdb6ab304ad983b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a flag is selected from the space center's flag pole  <a href="#a2891185d24110ddfdb6ab304ad983b0c">More...</a><br /></td></tr>
 <tr class="separator:a2891185d24110ddfdb6ab304ad983b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a65152f1ee01f1913cb7bd66336fe0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a21a65152f1ee01f1913cb7bd66336fe0">OnFlightGlobalsReady</a></td></tr>
+<tr class="separator:a21a65152f1ee01f1913cb7bd66336fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9396b61be48425c7ffb1a2b3dbf4b45"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_vessel.html">Vessel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#aa9396b61be48425c7ffb1a2b3dbf4b45">OnFlightLogRecorded</a></td></tr>
+<tr class="separator:aa9396b61be48425c7ffb1a2b3dbf4b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29a33dea5fa16d1271b4e90ed5bb28dc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a29a33dea5fa16d1271b4e90ed5bb28dc">onFlightReady</a></td></tr>
 <tr class="memdesc:a29a33dea5fa16d1271b4e90ed5bb28dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a vessel is fully loaded  <a href="#a29a33dea5fa16d1271b4e90ed5bb28dc">More...</a><br /></td></tr>
 <tr class="separator:a29a33dea5fa16d1271b4e90ed5bb28dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56a720687df17fe5ecbbfe1b0a89bdde"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="struct_vector3d.html">Vector3d</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a56a720687df17fe5ecbbfe1b0a89bdde">onFloatingOriginShift</a></td></tr>
 <tr class="memdesc:a56a720687df17fe5ecbbfe1b0a89bdde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated?  <a href="#a56a720687df17fe5ecbbfe1b0a89bdde">More...</a><br /></td></tr>
 <tr class="separator:a56a720687df17fe5ecbbfe1b0a89bdde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39648b7516923a456eb628f192c188c3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a39648b7516923a456eb628f192c188c3">OnFundsChanged</a></td></tr>
-<tr class="memdesc:a39648b7516923a456eb628f192c188c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">When Funds level changes, returns total Funds amount  <a href="#a39648b7516923a456eb628f192c188c3">More...</a><br /></td></tr>
-<tr class="separator:a39648b7516923a456eb628f192c188c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ba546b5cd92be772dc4fd71eb29b5c4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; double, <a class="el" href="_transaction_reasons_8cs.html#a5e7da8007c5a53c936acdce93de26b74">TransactionReasons</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a1ba546b5cd92be772dc4fd71eb29b5c4">OnFundsChanged</a></td></tr>
+<tr class="memdesc:a1ba546b5cd92be772dc4fd71eb29b5c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">When Funds level changes, returns total Funds amount  <a href="#a1ba546b5cd92be772dc4fd71eb29b5c4">More...</a><br /></td></tr>
+<tr class="separator:a1ba546b5cd92be772dc4fd71eb29b5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a8e9750105fb59b358bdaba0a1cb809"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a7a8e9750105fb59b358bdaba0a1cb809">onGamePause</a></td></tr>
 <tr class="memdesc:a7a8e9750105fb59b358bdaba0a1cb809"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the game is paused  <a href="#a7a8e9750105fb59b358bdaba0a1cb809">More...</a><br /></td></tr>
 <tr class="separator:a7a8e9750105fb59b358bdaba0a1cb809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4259cf2abfcc8b0c251c5ff6bebbfa2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090">GameScenes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ac4259cf2abfcc8b0c251c5ff6bebbfa2">onGameSceneLoadRequested</a></td></tr>
 <tr class="memdesc:ac4259cf2abfcc8b0c251c5ff6bebbfa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered upon scene change requests; returns the target GameScene  <a href="#ac4259cf2abfcc8b0c251c5ff6bebbfa2">More...</a><br /></td></tr>
 <tr class="separator:ac4259cf2abfcc8b0c251c5ff6bebbfa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3692f233a232403901f589e4d43fe4ee"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="struct_game_events_1_1_from_to_action.html">GameEvents.FromToAction</a>&lt; <a class="el" href="_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090">GameScenes</a>, <a class="el" href="_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090">GameScenes</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a3692f233a232403901f589e4d43fe4ee">onGameSceneSwitchRequested</a></td></tr>
+<tr class="separator:a3692f233a232403901f589e4d43fe4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90a8dce8829165b560f81bd85506736f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a90a8dce8829165b560f81bd85506736f">OnGameSettingsApplied</a></td></tr>
 <tr class="memdesc:a90a8dce8829165b560f81bd85506736f"><td class="mdescLeft">&#160;</td><td class="mdescRight">When Game Settings are applied in the main settings menu, or the in-game settings menu  <a href="#a90a8dce8829165b560f81bd85506736f">More...</a><br /></td></tr>
 <tr class="separator:a90a8dce8829165b560f81bd85506736f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,18 +235,30 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a80b977ee8a49448bb02730d48a3e2c8f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a80b977ee8a49448bb02730d48a3e2c8f">onGameUnpause</a></td></tr>
 <tr class="memdesc:a80b977ee8a49448bb02730d48a3e2c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the game is unpaused  <a href="#a80b977ee8a49448bb02730d48a3e2c8f">More...</a><br /></td></tr>
 <tr class="separator:a80b977ee8a49448bb02730d48a3e2c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a547786ea5a3cbfe8bc8f4769dda45d0a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a547786ea5a3cbfe8bc8f4769dda45d0a">onGUIAdministrationFacilityDespawn</a></td></tr>
+<tr class="separator:a547786ea5a3cbfe8bc8f4769dda45d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aa7fff7e09e00d91db79a9982b76a68"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a4aa7fff7e09e00d91db79a9982b76a68">onGUIAdministrationFacilitySpawn</a></td></tr>
+<tr class="separator:a4aa7fff7e09e00d91db79a9982b76a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5777e3888d925fe37bb2e7b1bb072a84"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a5777e3888d925fe37bb2e7b1bb072a84">onGUIApplicationLauncherDestroyed</a></td></tr>
 <tr class="memdesc:a5777e3888d925fe37bb2e7b1bb072a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the application launcher (toolbar) is closed  <a href="#a5777e3888d925fe37bb2e7b1bb072a84">More...</a><br /></td></tr>
 <tr class="separator:a5777e3888d925fe37bb2e7b1bb072a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26297049a3f6e4e105e780a5d68680dd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a26297049a3f6e4e105e780a5d68680dd">onGUIApplicationLauncherReady</a></td></tr>
 <tr class="memdesc:a26297049a3f6e4e105e780a5d68680dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the <a class="el" href="class_application_launcher.html" title="The application launcher is the set of buttons that appear in the upper right, including for example ...">ApplicationLauncher</a> toolbar is ready to have buttons added to it.  <a href="#a26297049a3f6e4e105e780a5d68680dd">More...</a><br /></td></tr>
 <tr class="separator:a26297049a3f6e4e105e780a5d68680dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5260aec533f648b8960d7180a1046f95"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090">GameScenes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a5260aec533f648b8960d7180a1046f95">onGUIApplicationLauncherUnreadifying</a></td></tr>
+<tr class="separator:a5260aec533f648b8960d7180a1046f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab855f021b80c69642f6fc1686aa04e4b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ab855f021b80c69642f6fc1686aa04e4b">onGUIAstronautComplexDespawn</a></td></tr>
 <tr class="memdesc:ab855f021b80c69642f6fc1686aa04e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the astronaut complex window closes  <a href="#ab855f021b80c69642f6fc1686aa04e4b">More...</a><br /></td></tr>
 <tr class="separator:ab855f021b80c69642f6fc1686aa04e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfb94c623ca872f77963b47e77d57f00"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#adfb94c623ca872f77963b47e77d57f00">onGUIAstronautComplexSpawn</a></td></tr>
 <tr class="memdesc:adfb94c623ca872f77963b47e77d57f00"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the astronaut complex window opens; from the space center or editor  <a href="#adfb94c623ca872f77963b47e77d57f00">More...</a><br /></td></tr>
 <tr class="separator:adfb94c623ca872f77963b47e77d57f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4259313c7c1fb7cf9a70ae975b0e2b28"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a4259313c7c1fb7cf9a70ae975b0e2b28">onGUIEditorToolbarReady</a></td></tr>
+<tr class="separator:a4259313c7c1fb7cf9a70ae975b0e2b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82f0624381f9cdf64eafc6f056b5efce"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a82f0624381f9cdf64eafc6f056b5efce">onGUIEngineersReportDestroy</a></td></tr>
+<tr class="separator:a82f0624381f9cdf64eafc6f056b5efce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4bd854270a6cad2ded94db88fd84574"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ac4bd854270a6cad2ded94db88fd84574">onGUIEngineersReportReady</a></td></tr>
+<tr class="separator:ac4bd854270a6cad2ded94db88fd84574"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1971cd4a1516fff16ac680ae3c2abb0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ab1971cd4a1516fff16ac680ae3c2abb0">onGUILaunchScreenDespawn</a></td></tr>
 <tr class="memdesc:ab1971cd4a1516fff16ac680ae3c2abb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the vessel selection screen is closed or a vessel is selected and launched  <a href="#ab1971cd4a1516fff16ac680ae3c2abb0">More...</a><br /></td></tr>
 <tr class="separator:ab1971cd4a1516fff16ac680ae3c2abb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -210,6 +268,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a5fcaac5d3c14aa8e702be267abdb3645"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; ShipTemplate &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a5fcaac5d3c14aa8e702be267abdb3645">onGUILaunchScreenVesselSelected</a></td></tr>
 <tr class="memdesc:a5fcaac5d3c14aa8e702be267abdb3645"><td class="mdescLeft">&#160;</td><td class="mdescRight">When a vessel is selected from the vessel selection screen at the space center  <a href="#a5fcaac5d3c14aa8e702be267abdb3645">More...</a><br /></td></tr>
 <tr class="separator:a5fcaac5d3c14aa8e702be267abdb3645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ce7fb2644efa3e03812ccaa2f5b9ebe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a2ce7fb2644efa3e03812ccaa2f5b9ebe">onGUILock</a></td></tr>
+<tr class="separator:a2ce7fb2644efa3e03812ccaa2f5b9ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc3672a38b9c864e52324fe363fd8f58"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#adc3672a38b9c864e52324fe363fd8f58">onGUIMessageSystemReady</a></td></tr>
 <tr class="memdesc:adc3672a38b9c864e52324fe363fd8f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the application launcher's message button is ready  <a href="#adc3672a38b9c864e52324fe363fd8f58">More...</a><br /></td></tr>
 <tr class="separator:adc3672a38b9c864e52324fe363fd8f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,6 +294,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a8c38afab8fc430aa58b4aad3c43361a1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a8c38afab8fc430aa58b4aad3c43361a1">onGUIRnDComplexSpawn</a></td></tr>
 <tr class="memdesc:a8c38afab8fc430aa58b4aad3c43361a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the R&amp;D center window opens  <a href="#a8c38afab8fc430aa58b4aad3c43361a1">More...</a><br /></td></tr>
 <tr class="separator:a8c38afab8fc430aa58b4aad3c43361a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5f9c02d554f21e5be347188abc4a5b1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#af5f9c02d554f21e5be347188abc4a5b1">onGUIUnlock</a></td></tr>
+<tr class="separator:af5f9c02d554f21e5be347188abc4a5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6413deda1cf88dfb47ec9a091d24e3e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#af6413deda1cf88dfb47ec9a091d24e3e">onHideUI</a></td></tr>
 <tr class="memdesc:af6413deda1cf88dfb47ec9a091d24e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the player hides the UI by pressing F2. Register for this callback (and for onShowUI) so that you can hide your UI too.  <a href="#af6413deda1cf88dfb47ec9a091d24e3e">More...</a><br /></td></tr>
 <tr class="separator:af6413deda1cf88dfb47ec9a091d24e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,17 +305,17 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a2ccde8bb8d191d3a95f16782bd91eb85"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_event_report.html">EventReport</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a2ccde8bb8d191d3a95f16782bd91eb85">onJointBreak</a></td></tr>
 <tr class="memdesc:a2ccde8bb8d191d3a95f16782bd91eb85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated? Use onPartJointBreak  <a href="#a2ccde8bb8d191d3a95f16782bd91eb85">More...</a><br /></td></tr>
 <tr class="separator:a2ccde8bb8d191d3a95f16782bd91eb85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af95e35afc085f89cc3f6ea249ae1ccfc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; ProtoCrewMember &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#af95e35afc085f89cc3f6ea249ae1ccfc">onKerbalAdded</a></td></tr>
+<tr class="memitem:af95e35afc085f89cc3f6ea249ae1ccfc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#af95e35afc085f89cc3f6ea249ae1ccfc">onKerbalAdded</a></td></tr>
 <tr class="memdesc:af95e35afc085f89cc3f6ea249ae1ccfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a new Kerbal is added in the astronaut complex scene; also triggered when a rescue Kerbal contract is generated  <a href="#af95e35afc085f89cc3f6ea249ae1ccfc">More...</a><br /></td></tr>
 <tr class="separator:af95e35afc085f89cc3f6ea249ae1ccfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a360a71460e012187953d632640d6faff"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; ProtoCrewMember &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a360a71460e012187953d632640d6faff">onKerbalRemoved</a></td></tr>
+<tr class="memitem:a360a71460e012187953d632640d6faff"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a360a71460e012187953d632640d6faff">onKerbalRemoved</a></td></tr>
 <tr class="memdesc:a360a71460e012187953d632640d6faff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a Kerbal is removed from the roster in the astronaut complex; also triggered when a rescue Kerbal contract is failed, expires, or declined  <a href="#a360a71460e012187953d632640d6faff">More...</a><br /></td></tr>
 <tr class="separator:a360a71460e012187953d632640d6faff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f5637c4bad07d15d2f5784498b08c82"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; ProtoCrewMember, ProtoCrewMember.RosterStatus, ProtoCrewMember.RosterStatus &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a6f5637c4bad07d15d2f5784498b08c82">onKerbalStatusChange</a></td></tr>
-<tr class="memdesc:a6f5637c4bad07d15d2f5784498b08c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when the ProtoCrewMember.RosterStatus changes; usually upon vessel recovery, new crew addition, or death; returns the ProtoCrewMember and its old and new status  <a href="#a6f5637c4bad07d15d2f5784498b08c82">More...</a><br /></td></tr>
+<tr class="memitem:a6f5637c4bad07d15d2f5784498b08c82"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, <a class="el" href="class_proto_crew_member.html#a46b1478859ae04f6f36de49f1c1ae90b">ProtoCrewMember.RosterStatus</a>, <a class="el" href="class_proto_crew_member.html#a46b1478859ae04f6f36de49f1c1ae90b">ProtoCrewMember.RosterStatus</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a6f5637c4bad07d15d2f5784498b08c82">onKerbalStatusChange</a></td></tr>
+<tr class="memdesc:a6f5637c4bad07d15d2f5784498b08c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when the <a class="el" href="class_proto_crew_member.html#a46b1478859ae04f6f36de49f1c1ae90b">ProtoCrewMember.RosterStatus</a> changes; usually upon vessel recovery, new crew addition, or death; returns the <a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a> and its old and new status  <a href="#a6f5637c4bad07d15d2f5784498b08c82">More...</a><br /></td></tr>
 <tr class="separator:a6f5637c4bad07d15d2f5784498b08c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35beebd248752e590c16047817ac1b87"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; ProtoCrewMember, ProtoCrewMember.KerbalType, ProtoCrewMember.KerbalType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a35beebd248752e590c16047817ac1b87">onKerbalTypeChange</a></td></tr>
-<tr class="memdesc:a35beebd248752e590c16047817ac1b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when the ProtoCrewMember.KerbalType changes; KerbalTypes are possibly not fully implemented; occurs upon hiring crew or rescuing Kerbal  <a href="#a35beebd248752e590c16047817ac1b87">More...</a><br /></td></tr>
+<tr class="memitem:a35beebd248752e590c16047817ac1b87"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, <a class="el" href="class_proto_crew_member.html#add857d7c54b41d783618ea6182ce895f">ProtoCrewMember.KerbalType</a>, <a class="el" href="class_proto_crew_member.html#add857d7c54b41d783618ea6182ce895f">ProtoCrewMember.KerbalType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a35beebd248752e590c16047817ac1b87">onKerbalTypeChange</a></td></tr>
+<tr class="memdesc:a35beebd248752e590c16047817ac1b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when the <a class="el" href="class_proto_crew_member.html#add857d7c54b41d783618ea6182ce895f">ProtoCrewMember.KerbalType</a> changes; KerbalTypes are possibly not fully implemented; occurs upon hiring crew or rescuing Kerbal  <a href="#a35beebd248752e590c16047817ac1b87">More...</a><br /></td></tr>
 <tr class="separator:a35beebd248752e590c16047817ac1b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0216c84173cd86a93885d1fa1a1fcf5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="struct_game_events_1_1_hosted_from_to_action.html">GameEvents.HostedFromToAction</a>&lt; <a class="el" href="interface_i_discoverable.html">IDiscoverable</a>, <a class="el" href="_discovery_levels_8cs.html#a83ff525e14671ac81ce7942f828b96ec">DiscoveryLevels</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ad0216c84173cd86a93885d1fa1a1fcf5">onKnowledgeChanged</a></td></tr>
 <tr class="memdesc:ad0216c84173cd86a93885d1fa1a1fcf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered upon starting or stopping asteroid tracking, or when approaching an asteroid  <a href="#ad0216c84173cd86a93885d1fa1a1fcf5">More...</a><br /></td></tr>
@@ -264,12 +326,30 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a08e73b6d2b945b91b976c60d3fae6294"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="struct_vector3d.html">Vector3d</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a08e73b6d2b945b91b976c60d3fae6294">onKrakensbaneEngage</a></td></tr>
 <tr class="memdesc:a08e73b6d2b945b91b976c60d3fae6294"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a vessel's velocity reaches ~750m/s  <a href="#a08e73b6d2b945b91b976c60d3fae6294">More...</a><br /></td></tr>
 <tr class="separator:a08e73b6d2b945b91b976c60d3fae6294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abafe4bf0508759464f34e55276d12c08"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; global::Upgradeables.UpgradeableFacility, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#abafe4bf0508759464f34e55276d12c08">OnKSCFacilityUpgraded</a></td></tr>
+<tr class="separator:abafe4bf0508759464f34e55276d12c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7614586646b995c823fe3d241150e87e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; global::Upgradeables.UpgradeableFacility, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a7614586646b995c823fe3d241150e87e">OnKSCFacilityUpgrading</a></td></tr>
+<tr class="separator:a7614586646b995c823fe3d241150e87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4702c5bfc59bd1c85ad26b83d21ce1b1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; DestructibleBuilding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a4702c5bfc59bd1c85ad26b83d21ce1b1">OnKSCStructureCollapsed</a></td></tr>
+<tr class="separator:a4702c5bfc59bd1c85ad26b83d21ce1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d2a3ed183cabe1421815229bb5c0d98"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; DestructibleBuilding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a2d2a3ed183cabe1421815229bb5c0d98">OnKSCStructureCollapsing</a></td></tr>
+<tr class="separator:a2d2a3ed183cabe1421815229bb5c0d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2c6867f3578f575a2f2c1c64a317449"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; DestructibleBuilding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ae2c6867f3578f575a2f2c1c64a317449">OnKSCStructureRepaired</a></td></tr>
+<tr class="separator:ae2c6867f3578f575a2f2c1c64a317449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83e17da69ba8b524eebc67c399f7b315"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; DestructibleBuilding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a83e17da69ba8b524eebc67c399f7b315">OnKSCStructureRepairing</a></td></tr>
+<tr class="separator:a83e17da69ba8b524eebc67c399f7b315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dc2ab5addb534e035f947ad0834b664"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_event_report.html">EventReport</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a2dc2ab5addb534e035f947ad0834b664">onLaunch</a></td></tr>
 <tr class="memdesc:a2dc2ab5addb534e035f947ad0834b664"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when launching by activating the first stage  <a href="#a2dc2ab5addb534e035f947ad0834b664">More...</a><br /></td></tr>
 <tr class="separator:a2dc2ab5addb534e035f947ad0834b664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cf18daf9a484c3d82c8ff5451180f33"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090">GameScenes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a4cf18daf9a484c3d82c8ff5451180f33">onLevelWasLoaded</a></td></tr>
 <tr class="memdesc:a4cf18daf9a484c3d82c8ff5451180f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a new scene is loaded; returns that GameScene; occurs after onGameSceneLoadRequested  <a href="#a4cf18daf9a484c3d82c8ff5451180f33">More...</a><br /></td></tr>
 <tr class="separator:a4cf18daf9a484c3d82c8ff5451180f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8a3321583e0b6e0238c416388102cc3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090">GameScenes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ae8a3321583e0b6e0238c416388102cc3">onLevelWasLoadedGUIReady</a></td></tr>
+<tr class="separator:ae8a3321583e0b6e0238c416388102cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5f8fcd8c4acc9c16687afc6005a7b5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#aac5f8fcd8c4acc9c16687afc6005a7b5">OnMapEntered</a></td></tr>
+<tr class="separator:aac5f8fcd8c4acc9c16687afc6005a7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8e5235440aa57db7d7f8826f5d11b7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#adf8e5235440aa57db7d7f8826f5d11b7">OnMapExited</a></td></tr>
+<tr class="separator:adf8e5235440aa57db7d7f8826f5d11b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd7db77529f072118bac83e572b15095"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#afd7db77529f072118bac83e572b15095">onMissionFlagSelect</a></td></tr>
 <tr class="memdesc:afd7db77529f072118bac83e572b15095"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when selecting a new flag from in the editor; returns the flag texture's GameDatabse URL  <a href="#afd7db77529f072118bac83e572b15095">More...</a><br /></td></tr>
 <tr class="separator:afd7db77529f072118bac83e572b15095"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,9 +410,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a2004d13ba3d829461b8d1a1396393787"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; ProgressNode &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a2004d13ba3d829461b8d1a1396393787">OnProgressReached</a></td></tr>
 <tr class="memdesc:a2004d13ba3d829461b8d1a1396393787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a ProgressNode is first reached but not completed; records the UT of node achievement and returns the ProgressNode.  <a href="#a2004d13ba3d829461b8d1a1396393787">More...</a><br /></td></tr>
 <tr class="separator:a2004d13ba3d829461b8d1a1396393787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acac6d84e570dd3ec01f29089abb99e91"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#acac6d84e570dd3ec01f29089abb99e91">OnReputationChanged</a></td></tr>
-<tr class="memdesc:acac6d84e570dd3ec01f29089abb99e91"><td class="mdescLeft">&#160;</td><td class="mdescRight">When reputation level changes; returns total rep amount  <a href="#acac6d84e570dd3ec01f29089abb99e91">More...</a><br /></td></tr>
-<tr class="separator:acac6d84e570dd3ec01f29089abb99e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac31aff9e8423079d42c8f789abe1b5e8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; float, <a class="el" href="_transaction_reasons_8cs.html#a5e7da8007c5a53c936acdce93de26b74">TransactionReasons</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ac31aff9e8423079d42c8f789abe1b5e8">OnReputationChanged</a></td></tr>
+<tr class="memdesc:ac31aff9e8423079d42c8f789abe1b5e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">When reputation level changes; returns total rep amount  <a href="#ac31aff9e8423079d42c8f789abe1b5e8">More...</a><br /></td></tr>
+<tr class="separator:ac31aff9e8423079d42c8f789abe1b5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9676a0520a6af0b3a14b125794cc221"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="struct_game_events_1_1_host_target_action.html">GameEvents.HostTargetAction</a>&lt; <a class="el" href="class_celestial_body.html">CelestialBody</a>, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ad9676a0520a6af0b3a14b125794cc221">onRotatingFrameTransition</a></td></tr>
 <tr class="memdesc:ad9676a0520a6af0b3a14b125794cc221"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when reference frame changes (ie from inertial to rotating); this is generally accompanied by a shift in the camera position and a debug log message ("Reference Frame: Rotating/Inertial")  <a href="#ad9676a0520a6af0b3a14b125794cc221">More...</a><br /></td></tr>
 <tr class="separator:ad9676a0520a6af0b3a14b125794cc221"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -342,12 +422,12 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a2b1197c821fbb88fad6bda4b8e06802d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="struct_game_events_1_1_from_to_action.html">GameEvents.FromToAction</a>&lt; ModuleDockingNode, ModuleDockingNode &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a2b1197c821fbb88fad6bda4b8e06802d">onSameVesselUndock</a></td></tr>
 <tr class="memdesc:a2b1197c821fbb88fad6bda4b8e06802d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when two docking ports on the same vessel undock  <a href="#a2b1197c821fbb88fad6bda4b8e06802d">More...</a><br /></td></tr>
 <tr class="separator:a2b1197c821fbb88fad6bda4b8e06802d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a844c8f1c777cf9b0a65830be26f1ccca"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a844c8f1c777cf9b0a65830be26f1ccca">OnScienceChanged</a></td></tr>
-<tr class="memdesc:a844c8f1c777cf9b0a65830be26f1ccca"><td class="mdescLeft">&#160;</td><td class="mdescRight">When science level changes; returns total science amount  <a href="#a844c8f1c777cf9b0a65830be26f1ccca">More...</a><br /></td></tr>
-<tr class="separator:a844c8f1c777cf9b0a65830be26f1ccca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e0c814e13e00c3165b9df3ecd0a6621"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; float, <a class="el" href="class_science_subject.html">ScienceSubject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a6e0c814e13e00c3165b9df3ecd0a6621">OnScienceRecieved</a></td></tr>
-<tr class="memdesc:a6e0c814e13e00c3165b9df3ecd0a6621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered science data is transmitted or recovered; returns the amount of science and the <a class="el" href="class_science_subject.html" title="Class containing information on a specific science result, data stored in the persistent file under t...">ScienceSubject</a>  <a href="#a6e0c814e13e00c3165b9df3ecd0a6621">More...</a><br /></td></tr>
-<tr class="separator:a6e0c814e13e00c3165b9df3ecd0a6621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8753f9d918d1423c93a6d11bb2965e3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; float, <a class="el" href="_transaction_reasons_8cs.html#a5e7da8007c5a53c936acdce93de26b74">TransactionReasons</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#ab8753f9d918d1423c93a6d11bb2965e3">OnScienceChanged</a></td></tr>
+<tr class="memdesc:ab8753f9d918d1423c93a6d11bb2965e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">When science level changes; returns total science amount  <a href="#ab8753f9d918d1423c93a6d11bb2965e3">More...</a><br /></td></tr>
+<tr class="separator:ab8753f9d918d1423c93a6d11bb2965e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55027018d75d7805904e8bfcccfa9fe7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; float, <a class="el" href="class_science_subject.html">ScienceSubject</a>, ProtoVessel, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a55027018d75d7805904e8bfcccfa9fe7">OnScienceRecieved</a></td></tr>
+<tr class="memdesc:a55027018d75d7805904e8bfcccfa9fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered science data is transmitted or recovered; returns the amount of science and the <a class="el" href="class_science_subject.html" title="Class containing information on a specific science result, data stored in the persistent file under t...">ScienceSubject</a>  <a href="#a55027018d75d7805904e8bfcccfa9fe7">More...</a><br /></td></tr>
+<tr class="separator:a55027018d75d7805904e8bfcccfa9fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8479848abb61a8a88e793367d95d87c2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a8479848abb61a8a88e793367d95d87c2">onShowUI</a></td></tr>
 <tr class="memdesc:a8479848abb61a8a88e793367d95d87c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the player un-hides the UI by pressing F2. Register for this callback (and onHideUI) so that you can un-hide your UI too.  <a href="#a8479848abb61a8a88e793367d95d87c2">More...</a><br /></td></tr>
 <tr class="separator:a8479848abb61a8a88e793367d95d87c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -366,9 +446,13 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a43d09bbdb34b0a92f5687181abb7e7d4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a43d09bbdb34b0a92f5687181abb7e7d4">onTimeWarpRateChanged</a></td></tr>
 <tr class="memdesc:a43d09bbdb34b0a92f5687181abb7e7d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered whenever timewarp rate changes; applies to physics and non-physics timewarp; triggered by the key press also (called even if you are at max/min timewarp already)  <a href="#a43d09bbdb34b0a92f5687181abb7e7d4">More...</a><br /></td></tr>
 <tr class="separator:a43d09bbdb34b0a92f5687181abb7e7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14545511d2c1fe3ef94c0a2b2f66537a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_void.html">EventVoid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a14545511d2c1fe3ef94c0a2b2f66537a">onTooltipDestroyRequested</a></td></tr>
+<tr class="separator:a14545511d2c1fe3ef94c0a2b2f66537a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9421233ebd7dfb99e4a1bc418d8fe722"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_event_report.html">EventReport</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a9421233ebd7dfb99e4a1bc418d8fe722">onUndock</a></td></tr>
 <tr class="memdesc:a9421233ebd7dfb99e4a1bc418d8fe722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated? Use onPartUndock  <a href="#a9421233ebd7dfb99e4a1bc418d8fe722">More...</a><br /></td></tr>
 <tr class="separator:a9421233ebd7dfb99e4a1bc418d8fe722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085131726e1dd0851fac8a9346e274fa"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; global::Upgradeables.UpgradeableObject, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#a085131726e1dd0851fac8a9346e274fa">OnUpgradeableObjLevelChange</a></td></tr>
+<tr class="separator:a085131726e1dd0851fac8a9346e274fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2d33d5dbea1c445031e7aae462e8b50"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_event_data.html">EventData</a>&lt; <a class="el" href="class_vessel.html">Vessel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_events.html#af2d33d5dbea1c445031e7aae462e8b50">onVesselChange</a></td></tr>
 <tr class="memdesc:af2d33d5dbea1c445031e7aae462e8b50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when switching to a different vessel, loading a vessel, or launching  <a href="#af2d33d5dbea1c445031e7aae462e8b50">More...</a><br /></td></tr>
 <tr class="separator:af2d33d5dbea1c445031e7aae462e8b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -455,6 +539,26 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a056d0d8b6616e763c6f23eff80f0ae93"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_events_1_1_game_modifiers.html">GameEvents.GameModifiers</a> GameEvents.Modifiers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a78b15542c658560f6cae3254c287cf7b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -474,6 +578,26 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Triggered when a vessel docks or attaches with the grappling device; fires twice, once for each vessel </p>
+
+</div>
+</div>
+<a class="anchor" id="a8c782f5fa2a8919dde8fec4bc7e10127"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;bool&gt; GameEvents.OnAppFocus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -587,6 +711,66 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1e6eb06a680904668d3ff16e93a39cae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, int&gt; GameEvents.OnCrewmemberHired</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1bf4e177a0304307b73aa0e555c4337b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, int&gt; GameEvents.OnCrewmemberLeftForDead</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a049ae51db7b9124ae8e23810c3e07a08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, int&gt; GameEvents.OnCrewmemberSacked</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a115547627e02f800818f9e5df34770a7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -606,6 +790,26 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Triggered when a Kerbal goes on EVA </p>
+
+</div>
+</div>
+<a class="anchor" id="aa801df46e0eb041ad7a37022f12af230"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="struct_game_events_1_1_hosted_from_to_action.html">GameEvents.HostedFromToAction</a>&lt;<a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, <a class="el" href="class_part.html">Part</a>&gt; &gt; GameEvents.onCrewTransferred</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -632,6 +836,126 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9be73cd28cadbc9f5825c9204dbb9b76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;ConstructionMode&gt; GameEvents.onEditorConstructionModeChange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af43ee13f2de00a985a61ec301863a300"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_ship_construct.html">ShipConstruct</a>, CraftBrowser.LoadType&gt; GameEvents.onEditorLoad</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a01de36805f858a9eed47109c00be06d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;ConstructionEventType, <a class="el" href="class_part.html">Part</a>&gt; GameEvents.onEditorPartEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a66c16de0da91e638221d6805d0482de2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_ship_construct.html">ShipConstruct</a>&gt; GameEvents.onEditorRedo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ada2a31bdb827059cef369aae22e5d185"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.onEditorRestart</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ade87a11226c11c54f0ac6580444fe8ca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;EditorScreen&gt; GameEvents.onEditorScreenChange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="afb278bbefd38b4c57380373a5560a202"></a>
 <div class="memitem">
 <div class="memproto">
@@ -651,6 +975,146 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Triggered when any part is added or removed from a vessel in the editor; also triggered when any tweakable settings are changed; also when undo is called </p>
+
+</div>
+</div>
+<a class="anchor" id="acec762a425e00bc5c33c62351f1ea87c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.onEditorShowPartList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7200f4b3c3a3925cff188bd58187d0b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;bool&gt; GameEvents.onEditorSnapModeChange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac710e0833eebfe6467357b95d57c5ddf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;global.UnityEngine.Space&gt; GameEvents.onEditorSymmetryCoordsChange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0cbb1bbfb63c98ec711afe09e71bf3bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;SymmetryMethod&gt; GameEvents.onEditorSymmetryMethodChange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad6c35d941384897ae344aedd46d6d87c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;int&gt; GameEvents.onEditorSymmetryModeChange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a87cbe9a57d615df8aeac5e83dd58c16e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_ship_construct.html">ShipConstruct</a>&gt; GameEvents.onEditorUndo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5222b5573184f0386582f3c44f7966d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_science_data.html">ScienceData</a>&gt; GameEvents.OnExperimentDeployed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -698,6 +1162,46 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a21a65152f1ee01f1913cb7bd66336fe0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;bool&gt; GameEvents.OnFlightGlobalsReady</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa9396b61be48425c7ffb1a2b3dbf4b45"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_vessel.html">Vessel</a>&gt; GameEvents.OnFlightLogRecorded</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a29a33dea5fa16d1271b4e90ed5bb28dc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -742,7 +1246,7 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a39648b7516923a456eb628f192c188c3"></a>
+<a class="anchor" id="a1ba546b5cd92be772dc4fd71eb29b5c4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -750,7 +1254,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;double&gt; GameEvents.OnFundsChanged</td>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;double, <a class="el" href="_transaction_reasons_8cs.html#a5e7da8007c5a53c936acdce93de26b74">TransactionReasons</a>&gt; GameEvents.OnFundsChanged</td>
         </tr>
       </table>
   </td>
@@ -805,6 +1309,26 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Triggered upon scene change requests; returns the target GameScene </p>
+
+</div>
+</div>
+<a class="anchor" id="a3692f233a232403901f589e4d43fe4ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="struct_game_events_1_1_from_to_action.html">GameEvents.FromToAction</a>&lt;<a class="el" href="_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090">GameScenes</a>, <a class="el" href="_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090">GameScenes</a>&gt; &gt; GameEvents.onGameSceneSwitchRequested</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -940,6 +1464,46 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a547786ea5a3cbfe8bc8f4769dda45d0a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.onGUIAdministrationFacilityDespawn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4aa7fff7e09e00d91db79a9982b76a68"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.onGUIAdministrationFacilitySpawn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a5777e3888d925fe37bb2e7b1bb072a84"></a>
 <div class="memitem">
 <div class="memproto">
@@ -984,6 +1548,26 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5260aec533f648b8960d7180a1046f95"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090">GameScenes</a>&gt; GameEvents.onGUIApplicationLauncherUnreadifying</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ab855f021b80c69642f6fc1686aa04e4b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1025,6 +1609,66 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>When the astronaut complex window opens; from the space center or editor </p>
+
+</div>
+</div>
+<a class="anchor" id="a4259313c7c1fb7cf9a70ae975b0e2b28"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.onGUIEditorToolbarReady</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a82f0624381f9cdf64eafc6f056b5efce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.onGUIEngineersReportDestroy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac4bd854270a6cad2ded94db88fd84574"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.onGUIEngineersReportReady</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1092,6 +1736,26 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>When a vessel is selected from the vessel selection screen at the space center </p>
+
+</div>
+</div>
+<a class="anchor" id="a2ce7fb2644efa3e03812ccaa2f5b9ebe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.onGUILock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1271,6 +1935,26 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af5f9c02d554f21e5be347188abc4a5b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.onGUIUnlock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="af6413deda1cf88dfb47ec9a091d24e3e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1345,7 +2029,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;ProtoCrewMember&gt; GameEvents.onKerbalAdded</td>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>&gt; GameEvents.onKerbalAdded</td>
         </tr>
       </table>
   </td>
@@ -1367,7 +2051,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;ProtoCrewMember&gt; GameEvents.onKerbalRemoved</td>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>&gt; GameEvents.onKerbalRemoved</td>
         </tr>
       </table>
   </td>
@@ -1389,7 +2073,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;ProtoCrewMember, ProtoCrewMember.RosterStatus, ProtoCrewMember.RosterStatus&gt; GameEvents.onKerbalStatusChange</td>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, <a class="el" href="class_proto_crew_member.html#a46b1478859ae04f6f36de49f1c1ae90b">ProtoCrewMember.RosterStatus</a>, <a class="el" href="class_proto_crew_member.html#a46b1478859ae04f6f36de49f1c1ae90b">ProtoCrewMember.RosterStatus</a>&gt; GameEvents.onKerbalStatusChange</td>
         </tr>
       </table>
   </td>
@@ -1399,7 +2083,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Triggered when the ProtoCrewMember.RosterStatus changes; usually upon vessel recovery, new crew addition, or death; returns the ProtoCrewMember and its old and new status </p>
+<p>Triggered when the <a class="el" href="class_proto_crew_member.html#a46b1478859ae04f6f36de49f1c1ae90b">ProtoCrewMember.RosterStatus</a> changes; usually upon vessel recovery, new crew addition, or death; returns the <a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a> and its old and new status </p>
 
 </div>
 </div>
@@ -1411,7 +2095,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;ProtoCrewMember, ProtoCrewMember.KerbalType, ProtoCrewMember.KerbalType&gt; GameEvents.onKerbalTypeChange</td>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="class_proto_crew_member.html">ProtoCrewMember</a>, <a class="el" href="class_proto_crew_member.html#add857d7c54b41d783618ea6182ce895f">ProtoCrewMember.KerbalType</a>, <a class="el" href="class_proto_crew_member.html#add857d7c54b41d783618ea6182ce895f">ProtoCrewMember.KerbalType</a>&gt; GameEvents.onKerbalTypeChange</td>
         </tr>
       </table>
   </td>
@@ -1421,7 +2105,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Triggered when the ProtoCrewMember.KerbalType changes; KerbalTypes are possibly not fully implemented; occurs upon hiring crew or rescuing Kerbal </p>
+<p>Triggered when the <a class="el" href="class_proto_crew_member.html#add857d7c54b41d783618ea6182ce895f">ProtoCrewMember.KerbalType</a> changes; KerbalTypes are possibly not fully implemented; occurs upon hiring crew or rescuing Kerbal </p>
 
 </div>
 </div>
@@ -1491,6 +2175,126 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abafe4bf0508759464f34e55276d12c08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;global.Upgradeables.UpgradeableFacility, int&gt; GameEvents.OnKSCFacilityUpgraded</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7614586646b995c823fe3d241150e87e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;global.Upgradeables.UpgradeableFacility, int&gt; GameEvents.OnKSCFacilityUpgrading</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4702c5bfc59bd1c85ad26b83d21ce1b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;DestructibleBuilding&gt; GameEvents.OnKSCStructureCollapsed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2d2a3ed183cabe1421815229bb5c0d98"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;DestructibleBuilding&gt; GameEvents.OnKSCStructureCollapsing</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae2c6867f3578f575a2f2c1c64a317449"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;DestructibleBuilding&gt; GameEvents.OnKSCStructureRepaired</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a83e17da69ba8b524eebc67c399f7b315"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;DestructibleBuilding&gt; GameEvents.OnKSCStructureRepairing</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a2dc2ab5addb534e035f947ad0834b664"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1532,6 +2336,66 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Triggered when a new scene is loaded; returns that GameScene; occurs after onGameSceneLoadRequested </p>
+
+</div>
+</div>
+<a class="anchor" id="ae8a3321583e0b6e0238c416388102cc3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;<a class="el" href="_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090">GameScenes</a>&gt; GameEvents.onLevelWasLoadedGUIReady</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aac5f8fcd8c4acc9c16687afc6005a7b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.OnMapEntered</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adf8e5235440aa57db7d7f8826f5d11b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.OnMapExited</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1983,7 +2847,7 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acac6d84e570dd3ec01f29089abb99e91"></a>
+<a class="anchor" id="ac31aff9e8423079d42c8f789abe1b5e8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1991,7 +2855,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;float&gt; GameEvents.OnReputationChanged</td>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;float, <a class="el" href="_transaction_reasons_8cs.html#a5e7da8007c5a53c936acdce93de26b74">TransactionReasons</a>&gt; GameEvents.OnReputationChanged</td>
         </tr>
       </table>
   </td>
@@ -2071,7 +2935,7 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a844c8f1c777cf9b0a65830be26f1ccca"></a>
+<a class="anchor" id="ab8753f9d918d1423c93a6d11bb2965e3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2079,7 +2943,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;float&gt; GameEvents.OnScienceChanged</td>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;float, <a class="el" href="_transaction_reasons_8cs.html#a5e7da8007c5a53c936acdce93de26b74">TransactionReasons</a>&gt; GameEvents.OnScienceChanged</td>
         </tr>
       </table>
   </td>
@@ -2093,7 +2957,7 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6e0c814e13e00c3165b9df3ecd0a6621"></a>
+<a class="anchor" id="a55027018d75d7805904e8bfcccfa9fe7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2101,7 +2965,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;float, <a class="el" href="class_science_subject.html">ScienceSubject</a>&gt; GameEvents.OnScienceRecieved</td>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;float, <a class="el" href="class_science_subject.html">ScienceSubject</a>, ProtoVessel, bool&gt; GameEvents.OnScienceRecieved</td>
         </tr>
       </table>
   </td>
@@ -2247,6 +3111,26 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a14545511d2c1fe3ef94c0a2b2f66537a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_void.html">EventVoid</a> GameEvents.onTooltipDestroyRequested</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a9421233ebd7dfb99e4a1bc418d8fe722"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2266,6 +3150,26 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Deprecated? Use onPartUndock </p>
+
+</div>
+</div>
+<a class="anchor" id="a085131726e1dd0851fac8a9346e274fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_event_data.html">EventData</a>&lt;global.Upgradeables.UpgradeableObject, int&gt; GameEvents.OnUpgradeableObjLevelChange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2672,7 +3576,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 4 2016 11:44:49 for KSP API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 4 2016 14:05:04 for KSP API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

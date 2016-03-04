@@ -3,6 +3,7 @@ var searchData=
   ['scaledspace_2ecs',['ScaledSpace.cs',['../_scaled_space_8cs.html',1,'']]],
   ['scenariocreationoptions_2ecs',['ScenarioCreationOptions.cs',['../_scenario_creation_options_8cs.html',1,'']]],
   ['scenariodiscoverableobjects_2ecs',['ScenarioDiscoverableObjects.cs',['../_scenario_discoverable_objects_8cs.html',1,'']]],
+  ['scenariomodule_2ecs',['ScenarioModule.cs',['../_scenario_module_8cs.html',1,'']]],
   ['sciencedata_2ecs',['ScienceData.cs',['../_science_data_8cs.html',1,'']]],
   ['scienceexperiment_2ecs',['ScienceExperiment.cs',['../_science_experiment_8cs.html',1,'']]],
   ['sciencesubject_2ecs',['ScienceSubject.cs',['../_science_subject_8cs.html',1,'']]],

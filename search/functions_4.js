@@ -1,7 +1,10 @@
 var searchData=
 [
   ['editorlogic',['EditorLogic',['../class_editor_logic.html#a562629c643a3dbdeb03671dfbed89e66',1,'EditorLogic']]],
+  ['editorparams',['EditorParams',['../class_game_parameters_1_1_editor_params.html#aa530d616aa60d7cf088b0c108b5ad775',1,'GameParameters::EditorParams']]],
   ['edittext',['editText',['../class_editor_logic.html#a8d517e34f04d8090c790c1af5b8df443',1,'EditorLogic']]],
+  ['effect',['Effect',['../class_part.html#a0a837b71f30ecf22ed4c8385028bd2be',1,'Part.Effect(string effectName)'],['../class_part.html#a2ea3876137a9438da15e8e9dff813939',1,'Part.Effect(string effectName, float effectPower)']]],
+  ['enable',['Enable',['../class_contracts_1_1_contract_parameter.html#abbe150be9c406a0bcc42a21c5b824c7f',1,'Contracts::ContractParameter']]],
   ['enablecamera',['EnableCamera',['../class_flight_camera.html#a4a4bb72f58e549b4299850f1f4d2468a',1,'FlightCamera']]],
   ['enablemutuallyexclusive',['EnableMutuallyExclusive',['../class_application_launcher.html#a6fc205dedd1132d241b4eab93b90fec5',1,'ApplicationLauncher']]],
   ['encrypt',['Encrypt',['../class_k_s_p_1_1_i_o_1_1_file_info.html#a4abd2d7781213f5d60fb3c5f85f4f3b8',1,'KSP::IO::FileInfo']]],

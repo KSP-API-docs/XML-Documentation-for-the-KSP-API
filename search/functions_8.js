@@ -3,6 +3,8 @@ var searchData=
   ['increasepatchlimit',['IncreasePatchLimit',['../class_patched_conic_solver.html#a1ea6cb4c40232e9fdd8c6e17d3a655b9',1,'PatchedConicSolver']]],
   ['init',['Init',['../class_orbit.html#a6bee77b7c30964ed62a6a51fd3ce350b',1,'Orbit']]],
   ['initialize',['Initialize',['../class_vessel.html#adfd83fc150faeb2437b8ee8cad219bf3',1,'Vessel']]],
+  ['initializeeffects',['InitializeEffects',['../class_part.html#a3933bd6a97b152e6938b527d15e255c6',1,'Part']]],
+  ['initializemodules',['InitializeModules',['../class_part.html#ab1e11bbded929594c193c2a9c54c1103',1,'Part']]],
   ['invoke',['Invoke',['../class_base_action.html#a0bfffab43e08b46bc46388dc80c4da7b',1,'BaseAction']]],
   ['ioexception',['IOException',['../class_k_s_p_1_1_i_o_1_1_i_o_exception.html#a14cd3da4c5097cfe61639c4ad1441b41',1,'KSP::IO::IOException']]],
   ['ioutils',['IOUtils',['../class_k_s_p_1_1_i_o_1_1_i_o_utils.html#a37b60887dfb65ff4dbf0cd4a5ff47b6a',1,'KSP::IO::IOUtils']]],

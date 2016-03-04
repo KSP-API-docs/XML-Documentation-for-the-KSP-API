@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['vesseltargetmodes',['VesselTargetModes',['../class_flight_globals.html#ab50e47ef9d99eb711591f9ef94b9194e',1,'FlightGlobals']]],
-  ['vk',['VK',['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4b',1,'HighLogic']]]
+  ['textstyling',['TextStyling',['../class_currency_modifier_query.html#a71814c94fbf9fb703a1f5c65ef12bb2d',1,'CurrencyModifierQuery']]],
+  ['transactionreasons',['TransactionReasons',['../_transaction_reasons_8cs.html#a5e7da8007c5a53c936acdce93de26b74',1,'TransactionReasons.cs']]]
 ];

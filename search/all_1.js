@@ -20,6 +20,10 @@ var searchData=
   ['boardpart',['BoardPart',['../class_kerbal_e_v_a.html#a32a0382bca76a6f8fb0bdeca6f7eb130',1,'KerbalEVA']]],
   ['bodies',['bodies',['../class_flight_globals.html#a2743553f1bdbae52a415ad8ffd1decf6',1,'FlightGlobals.bodies()'],['../class_flight_globals.html#a813bd19323a0585ebfd6d0eb424afc98',1,'FlightGlobals.Bodies()']]],
   ['bodydescription',['bodyDescription',['../class_celestial_body.html#acfd576b94a9fb8ffd478009afaecf3ce',1,'CelestialBody']]],
+  ['bodyliftlocalposition',['bodyLiftLocalPosition',['../class_part.html#ae2ddcbbf857e3199ccc954e07ed815d4',1,'Part']]],
+  ['bodyliftlocalvector',['bodyLiftLocalVector',['../class_part.html#aceade6a64b63b7cf2951e15401c57bcc',1,'Part']]],
+  ['bodyliftmultiplier',['bodyLiftMultiplier',['../class_part.html#a46f600428a10b8f3b9896b0661056035',1,'Part']]],
+  ['bodyliftscalar',['bodyLiftScalar',['../class_part.html#addcfd6ff718a8a700b7a2dcae305ad2b',1,'Part']]],
   ['bodyname',['bodyName',['../class_celestial_body.html#a123c36f472d161318afb8c76b62f4699',1,'CelestialBody']]],
   ['bodytransform',['bodyTransform',['../class_celestial_body.html#ae0d1d8bf71debdd07e59df1f5c2409a4',1,'CelestialBody']]],
   ['bodytype',['bodyType',['../class_celestial_body.html#a3e6535b1b5cc2f984b3081d174a0bf89',1,'CelestialBody']]],
@@ -43,5 +47,6 @@ var searchData=
   ['buoyancy',['buoyancy',['../class_part.html#ae80a7974c749e83d6bc5f7560bc65a75',1,'Part']]],
   ['burstflameoutgroups',['BurstFlameoutGroups',['../class_module_engines.html#a58a9cb6228ee63f8e327e6ced62cb6ec',1,'ModuleEngines']]],
   ['button',['button',['../class_administration_1_1_strategy_wrapper.html#a407de827a4d77e7bccbc953f7ba6a0d4',1,'Administration::StrategyWrapper']]],
-  ['buttoninuse',['ButtonInUse',['../class_administration_1_1_strategy_wrapper.html#a39854a9eef8a25745f28aa11ba21ba37',1,'Administration::StrategyWrapper']]]
+  ['buttoninuse',['ButtonInUse',['../class_administration_1_1_strategy_wrapper.html#a39854a9eef8a25745f28aa11ba21ba37',1,'Administration::StrategyWrapper']]],
+  ['bypassentrypurchaseafterresearch',['BypassEntryPurchaseAfterResearch',['../class_game_parameters_1_1_difficulty_params.html#abb923beb1d9ef4d840f576110682e2d0',1,'GameParameters::DifficultyParams']]]
 ];

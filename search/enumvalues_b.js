@@ -1,6 +1,7 @@
 var searchData=
 [
   ['mainmenu',['MainMenu',['../class_k_s_p_addon.html#aad4794e3fdfd545c576534be224f0b9baad1111b48f98329333237912fc3b371b',1,'KSPAddon.MainMenu()'],['../_game_scenes_8cs.html#a0687e907db3af3681f90377d69f32090a3287971e79b4dca11067ed287847c1e6',1,'MAINMENU():&#160;GameScenes.cs']]],
+  ['male',['Male',['../class_proto_crew_member.html#a68747d80796849223f3738c8e8164609a63889cfb9d3cbe05d1bd2be5cc9953fd',1,'ProtoCrewMember']]],
   ['maneuver',['MANEUVER',['../class_orbit.html#a96fe2f2e726341f4b6d1342c792712dfae30fd3901adfda9dc2260d6370961616',1,'Orbit']]],
   ['map',['MAP',['../_control_types_8cs.html#a0119b266bd804d818bf01e957f37217aa5af1a3a285c2bdee4192223e31e1f833',1,'ControlTypes.cs']]],
   ['mapview',['MAPVIEW',['../class_application_launcher.html#a7a06e87f89d831ed977456f13ca579a0a7d3ff301db864b8c5ca2bf3763c83ad3',1,'ApplicationLauncher']]],
@@ -10,5 +11,7 @@ var searchData=
   ['media_5fstop',['MEDIA_STOP',['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4bac0b5dbeb733e6653d4bda740b14b0429',1,'HighLogic']]],
   ['menu',['MENU',['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4ba3ed53fbeb1eab0443561b68ca0c0b5cf',1,'HighLogic']]],
   ['misc',['MISC',['../_control_types_8cs.html#a0119b266bd804d818bf01e957f37217aaca5c504c6136e20051be115160b0f0b8',1,'ControlTypes.cs']]],
+  ['missing',['Missing',['../class_proto_crew_member.html#a46b1478859ae04f6f36de49f1c1ae90ba2aee0be2678ee90fd327cc186826438e',1,'ProtoCrewMember']]],
+  ['moderate',['Moderate',['../class_game_parameters.html#a46750a958f8b0cb28820b2e0d3b3aeffa1eb79d43dbb97d5ceb3c157fdb27fa60',1,'GameParameters']]],
   ['multiply',['MULTIPLY',['../class_high_logic.html#aa5b8c862a58dc42ae5743f6c33d1ee4ba080aaf8d817ada96fca7096b7b55bd30',1,'HighLogic']]]
 ];

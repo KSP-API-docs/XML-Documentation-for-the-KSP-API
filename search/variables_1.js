@@ -5,6 +5,10 @@ var searchData=
   ['biomemask',['biomeMask',['../class_science_experiment.html#ade4791e76d46bbbc035492839a37caed',1,'ScienceExperiment']]],
   ['bodies',['bodies',['../class_flight_globals.html#a2743553f1bdbae52a415ad8ffd1decf6',1,'FlightGlobals']]],
   ['bodydescription',['bodyDescription',['../class_celestial_body.html#acfd576b94a9fb8ffd478009afaecf3ce',1,'CelestialBody']]],
+  ['bodyliftlocalposition',['bodyLiftLocalPosition',['../class_part.html#ae2ddcbbf857e3199ccc954e07ed815d4',1,'Part']]],
+  ['bodyliftlocalvector',['bodyLiftLocalVector',['../class_part.html#aceade6a64b63b7cf2951e15401c57bcc',1,'Part']]],
+  ['bodyliftmultiplier',['bodyLiftMultiplier',['../class_part.html#a46f600428a10b8f3b9896b0661056035',1,'Part']]],
+  ['bodyliftscalar',['bodyLiftScalar',['../class_part.html#addcfd6ff718a8a700b7a2dcae305ad2b',1,'Part']]],
   ['bodyname',['bodyName',['../class_celestial_body.html#a123c36f472d161318afb8c76b62f4699',1,'CelestialBody']]],
   ['bodytransform',['bodyTransform',['../class_celestial_body.html#ae0d1d8bf71debdd07e59df1f5c2409a4',1,'CelestialBody']]],
   ['bodytype',['bodyType',['../class_celestial_body.html#a3e6535b1b5cc2f984b3081d174a0bf89',1,'CelestialBody']]],
@@ -23,5 +27,6 @@ var searchData=
   ['btncancel',['btnCancel',['../class_administration.html#aebf4396752f2bbd79cbd59f052af9077',1,'Administration']]],
   ['btnexpand',['btnExpand',['../class_r_d_archives_controller.html#a1362f32e6835622177b44ce472aef491',1,'RDArchivesController']]],
   ['btnreset',['btnReset',['../class_r_d_archives_controller.html#a851af6b2ff2dacd37a552d434b5fd823',1,'RDArchivesController']]],
-  ['buoyancy',['buoyancy',['../class_part.html#ae80a7974c749e83d6bc5f7560bc65a75',1,'Part']]]
+  ['buoyancy',['buoyancy',['../class_part.html#ae80a7974c749e83d6bc5f7560bc65a75',1,'Part']]],
+  ['bypassentrypurchaseafterresearch',['BypassEntryPurchaseAfterResearch',['../class_game_parameters_1_1_difficulty_params.html#abb923beb1d9ef4d840f576110682e2d0',1,'GameParameters::DifficultyParams']]]
 ];

@@ -7,7 +7,7 @@ var searchData=
   ['geeasl',['GeeASL',['../class_celestial_body.html#a54ac2d97badeffdbdcc13c3518fe40c8',1,'CelestialBody']]],
   ['geeforce',['geeForce',['../class_vessel.html#ae43f0eb135b81a29255b440c5e10a98c',1,'Vessel']]],
   ['geeforce_5fimmediate',['geeForce_immediate',['../class_vessel.html#a68c23575a2b196d9379cf663c3416680',1,'Vessel']]],
-  ['geosolveriterations',['GeoSolverIterations',['../class_patched_conic_solver.html#aa64157659d2c3860bd97ed1a97e68c3a',1,'PatchedConicSolver']]],
+  ['geosolveriterations',['GeoSolverIterations',['../class_patched_conics_1_1_solver_parameters.html#ae8020ffa0573b513738241388d025992',1,'PatchedConics.SolverParameters.GeoSolverIterations()'],['../class_patched_conic_solver.html#aa64157659d2c3860bd97ed1a97e68c3a',1,'PatchedConicSolver.GeoSolverIterations()']]],
   ['gmagnitudeatcenter',['gMagnitudeAtCenter',['../class_celestial_body.html#a872ff243a5fab8022b13493abaf1ac37',1,'CelestialBody']]],
   ['gotostateonevent',['GoToStateOnEvent',['../class_k_f_s_m_event.html#a231dc4925c081314a8e3543e296d9e51',1,'KFSMEvent']]],
   ['gravparameter',['gravParameter',['../class_celestial_body.html#ac26b72af5325ff4d3c83ae9a9b6923d1',1,'CelestialBody']]],
